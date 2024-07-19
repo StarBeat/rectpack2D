@@ -7,3 +7,8 @@ example/main
 example/main.cpp.o
 example/run.sh
 build
+.xmake/
+.vscode/
+__pycache__
+vs2022/
+*.pyd
