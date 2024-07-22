@@ -51,7 +51,7 @@ int main() {
 		The result can only be smaller - if it cannot, the algorithm will gracefully fail.
 	*/
 
-	const auto max_side = 1000;
+	const auto max_side = 4096;
 
 	/*
 		The search stops when the bin was successfully inserted into,
@@ -83,11 +83,91 @@ int main() {
 
 	std::vector<rect_type> rectangles;
 
-	rectangles.emplace_back(rect_xywhf(0, 0, 20, 40, false));
-	rectangles.emplace_back(rect_xywh(0, 0, 120, 40));
-	rectangles.emplace_back(rect_xywh(0, 0, 85, 59));
-	rectangles.emplace_back(rect_xywh(0, 0, 199, 380));
-	rectangles.emplace_back(rect_xywh(0, 0, 85, 875));
+rectangles.emplace_back(rect_xywh(0, 0, 121, 34));
+rectangles.emplace_back(rect_xywh(0, 0, 548, 66));
+rectangles.emplace_back(rect_xywh(0, 0, 42, 42));
+rectangles.emplace_back(rect_xywh(0, 0, 208, 32));
+rectangles.emplace_back(rect_xywh(0, 0, 548, 42));
+rectangles.emplace_back(rect_xywh(0, 0, 148, 64));
+rectangles.emplace_back(rect_xywh(0, 0, 136, 96));
+rectangles.emplace_back(rect_xywh(0, 0, 76, 54));
+rectangles.emplace_back(rect_xywh(0, 0, 94, 94));
+rectangles.emplace_back(rect_xywh(0, 0, 106, 108));
+rectangles.emplace_back(rect_xywh(0, 0, 14, 24));
+rectangles.emplace_back(rect_xywh(0, 0, 28, 18));
+rectangles.emplace_back(rect_xywh(0, 0, 38, 36));
+rectangles.emplace_back(rect_xywh(0, 0, 38, 36));
+rectangles.emplace_back(rect_xywh(0, 0, 38, 36));
+rectangles.emplace_back(rect_xywh(0, 0, 38, 36));
+rectangles.emplace_back(rect_xywh(0, 0, 38, 36));
+rectangles.emplace_back(rect_xywh(0, 0, 34, 34));
+rectangles.emplace_back(rect_xywh(0, 0, 34, 34));
+rectangles.emplace_back(rect_xywh(0, 0, 40, 40));
+rectangles.emplace_back(rect_xywh(0, 0, 16, 42));
+rectangles.emplace_back(rect_xywh(0, 0, 64, 60));
+rectangles.emplace_back(rect_xywh(0, 0, 128, 104));
+rectangles.emplace_back(rect_xywh(0, 0, 88, 84));
+rectangles.emplace_back(rect_xywh(0, 0, 48, 58));
+rectangles.emplace_back(rect_xywh(0, 0, 96, 92));
+rectangles.emplace_back(rect_xywh(0, 0, 348, 192));
+rectangles.emplace_back(rect_xywh(0, 0, 38, 38));
+rectangles.emplace_back(rect_xywh(0, 0, 24, 16));
+rectangles.emplace_back(rect_xywh(0, 0, 18, 8));
+rectangles.emplace_back(rect_xywh(0, 0, 26, 26));
+rectangles.emplace_back(rect_xywh(0, 0, 20, 12));
+rectangles.emplace_back(rect_xywh(0, 0, 48, 58));
+rectangles.emplace_back(rect_xywh(0, 0, 66, 54));
+rectangles.emplace_back(rect_xywh(0, 0, 67, 31));
+rectangles.emplace_back(rect_xywh(0, 0, 183, 182));
+rectangles.emplace_back(rect_xywh(0, 0, 182, 182));
+rectangles.emplace_back(rect_xywh(0, 0, 312, 448));
+rectangles.emplace_back(rect_xywh(0, 0, 211, 185));
+rectangles.emplace_back(rect_xywh(0, 0, 263, 258));
+rectangles.emplace_back(rect_xywh(0, 0, 254, 105));
+rectangles.emplace_back(rect_xywh(0, 0, 264, 212));
+rectangles.emplace_back(rect_xywh(0, 0, 261, 166));
+rectangles.emplace_back(rect_xywh(0, 0, 312, 312));
+rectangles.emplace_back(rect_xywh(0, 0, 96, 177));
+rectangles.emplace_back(rect_xywh(0, 0, 97, 156));
+rectangles.emplace_back(rect_xywh(0, 0, 830, 676));
+rectangles.emplace_back(rect_xywh(0, 0, 1085, 1051));
+rectangles.emplace_back(rect_xywh(0, 0, 668, 648));
+rectangles.emplace_back(rect_xywh(0, 0, 613, 594));
+rectangles.emplace_back(rect_xywh(0, 0, 913, 687));
+rectangles.emplace_back(rect_xywh(0, 0, 39, 24));
+rectangles.emplace_back(rect_xywh(0, 0, 311, 3));
+rectangles.emplace_back(rect_xywh(0, 0, 3, 311));
+rectangles.emplace_back(rect_xywh(0, 0, 17, 21));
+rectangles.emplace_back(rect_xywh(0, 0, 22, 20));
+rectangles.emplace_back(rect_xywh(0, 0, 69, 69));
+rectangles.emplace_back(rect_xywh(0, 0, 59, 59));
+rectangles.emplace_back(rect_xywh(0, 0, 54, 54));
+rectangles.emplace_back(rect_xywh(0, 0, 36, 36));
+rectangles.emplace_back(rect_xywh(0, 0, 24, 20));
+rectangles.emplace_back(rect_xywh(0, 0, 100, 100));
+rectangles.emplace_back(rect_xywh(0, 0, 548, 150));
+rectangles.emplace_back(rect_xywh(0, 0, 548, 150));
+rectangles.emplace_back(rect_xywh(0, 0, 548, 150));
+rectangles.emplace_back(rect_xywh(0, 0, 548, 150));
+rectangles.emplace_back(rect_xywh(0, 0, 548, 150));
+rectangles.emplace_back(rect_xywh(0, 0, 520, 324));
+rectangles.emplace_back(rect_xywh(0, 0, 226, 122));
+rectangles.emplace_back(rect_xywh(0, 0, 96, 60));
+rectangles.emplace_back(rect_xywh(0, 0, 56, 56));
+rectangles.emplace_back(rect_xywh(0, 0, 56, 56));
+rectangles.emplace_back(rect_xywh(0, 0, 166, 80));
+rectangles.emplace_back(rect_xywh(0, 0, 166, 80));
+rectangles.emplace_back(rect_xywh(0, 0, 56, 56));
+rectangles.emplace_back(rect_xywh(0, 0, 56, 56));
+rectangles.emplace_back(rect_xywh(0, 0, 56, 56));
+rectangles.emplace_back(rect_xywh(0, 0, 56, 56));
+rectangles.emplace_back(rect_xywh(0, 0, 112, 104));
+rectangles.emplace_back(rect_xywh(0, 0, 56, 56));
+rectangles.emplace_back(rect_xywh(0, 0, 56, 56));
+rectangles.emplace_back(rect_xywh(0, 0, 56, 56));
+rectangles.emplace_back(rect_xywh(0, 0, 56, 56));
+rectangles.emplace_back(rect_xywh(0, 0, 56, 56));
+rectangles.emplace_back(rect_xywh(0, 0, 56, 56));
 	
 	auto report_result = [&rectangles](const rect_wh& result_size) {
 		std::cout << "Resultant bin: " << result_size.w << " " << result_size.h << std::endl;

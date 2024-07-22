@@ -9057,6 +9057,33 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_find_best_packing_dont_sort_spaces_type(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  vec_rect_type *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  rectpack2D::rect_wh result;
+  
+  (void)self;
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1, SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t,  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_best_packing_dont_sort_spaces_type" "', argument " "1"" of type '" "vec_rect_type &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "find_best_packing_dont_sort_spaces_type" "', argument " "1"" of type '" "vec_rect_type &""'"); 
+  }
+  arg1 = reinterpret_cast< vec_rect_type * >(argp1);
+  result = find_best_packing_dont_sort_spaces_type(*arg1);
+  resultobj = SWIG_NewPointerObj((new rectpack2D::rect_wh(result)), SWIGTYPE_p_rectpack2D__rect_wh, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 static PyMethodDef SwigMethods[] = {
 	 { "delete_SwigPyIterator", _wrap_delete_SwigPyIterator, METH_O, NULL},
 	 { "SwigPyIterator_value", _wrap_SwigPyIterator_value, METH_O, NULL},
@@ -9154,6 +9181,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "vec_rect_type_swigregister", vec_rect_type_swigregister, METH_O, NULL},
 	 { "vec_rect_type_swiginit", vec_rect_type_swiginit, METH_VARARGS, NULL},
 	 { "find_best_packing_spaces_type", _wrap_find_best_packing_spaces_type, METH_O, NULL},
+	 { "find_best_packing_dont_sort_spaces_type", _wrap_find_best_packing_dont_sort_spaces_type, METH_O, NULL},
 	 { NULL, NULL, 0, NULL }
 };
 

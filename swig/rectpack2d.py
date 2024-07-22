@@ -297,3 +297,6 @@ _rectpack2d.vec_rect_type_swigregister(vec_rect_type)
 def find_best_packing_spaces_type(rectangles):
     return _rectpack2d.find_best_packing_spaces_type(rectangles)
 
+def find_best_packing_dont_sort_spaces_type(rectangles):
+    return _rectpack2d.find_best_packing_dont_sort_spaces_type(rectangles)
+
