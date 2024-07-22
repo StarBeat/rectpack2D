@@ -3170,9 +3170,9 @@ SWIG_Python_NonDynamicSetAttr(PyObject *obj, PyObject *name, PyObject *value) {
 #define SWIGTYPE_p_rectpack2D__rect_xywh swig_types[9]
 #define SWIGTYPE_p_rectpack2D__rect_xywhf swig_types[10]
 #define SWIGTYPE_p_size_type swig_types[11]
-#define SWIGTYPE_p_std__allocatorT_empty_spacesT_true_default_empty_spaces_t__output_rect_type_t swig_types[12]
+#define SWIGTYPE_p_std__allocatorT_rectpack2D__rect_xywhf_t swig_types[12]
 #define SWIGTYPE_p_std__invalid_argument swig_types[13]
-#define SWIGTYPE_p_std__vectorT_rect_type_t swig_types[14]
+#define SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t swig_types[14]
 #define SWIGTYPE_p_swig__SwigPyIterator swig_types[15]
 #define SWIGTYPE_p_value_type swig_types[16]
 static swig_type_info *swig_types[18];
@@ -4430,9 +4430,9 @@ namespace swig {
 
 
   namespace swig {
-    template <>  struct traits< empty_spaces< true,default_empty_spaces >::output_rect_type > {
+    template <>  struct traits< rectpack2D::rect_xywhf > {
       typedef pointer_category category;
-      static const char* type_name() { return"empty_spaces< true,default_empty_spaces >::output_rect_type"; }
+      static const char* type_name() { return"rectpack2D::rect_xywhf"; }
     };
   }
 
@@ -4875,24 +4875,24 @@ namespace swig {
 
 
       namespace swig {
-	template <>  struct traits<std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type, std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > > {
+	template <>  struct traits<std::vector< rectpack2D::rect_xywhf, std::allocator< rectpack2D::rect_xywhf > > > {
 	  typedef pointer_category category;
 	  static const char* type_name() {
-	    return "std::vector<" "empty_spaces< true,default_empty_spaces >::output_rect_type" "," "std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type >" " >";
+	    return "std::vector<" "rectpack2D::rect_xywhf" "," "std::allocator< rectpack2D::rect_xywhf >" " >";
 	  }
 	};
       }
     
-SWIGINTERN swig::SwigPyIterator *std_vector_Sl_rect_type_Sg__iterator(std::vector< rect_type > *self,PyObject **PYTHON_SELF){
+SWIGINTERN swig::SwigPyIterator *std_vector_Sl_rectpack2D_rect_xywhf_Sg__iterator(std::vector< rectpack2D::rect_xywhf > *self,PyObject **PYTHON_SELF){
       return swig::make_output_iterator(self->begin(), self->begin(), self->end(), *PYTHON_SELF);
     }
-SWIGINTERN bool std_vector_Sl_rect_type_Sg____nonzero__(std::vector< rect_type > const *self){
+SWIGINTERN bool std_vector_Sl_rectpack2D_rect_xywhf_Sg____nonzero__(std::vector< rectpack2D::rect_xywhf > const *self){
       return !(self->empty());
     }
-SWIGINTERN bool std_vector_Sl_rect_type_Sg____bool__(std::vector< rect_type > const *self){
+SWIGINTERN bool std_vector_Sl_rectpack2D_rect_xywhf_Sg____bool__(std::vector< rectpack2D::rect_xywhf > const *self){
       return !(self->empty());
     }
-SWIGINTERN std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type std_vector_Sl_rect_type_Sg____len__(std::vector< rect_type > const *self){
+SWIGINTERN std::vector< rectpack2D::rect_xywhf >::size_type std_vector_Sl_rectpack2D_rect_xywhf_Sg____len__(std::vector< rectpack2D::rect_xywhf > const *self){
       return self->size();
     }
 
@@ -4929,66 +4929,66 @@ SWIG_From_size_t  (size_t value)
 #endif
 }
 
-SWIGINTERN std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > *std_vector_Sl_rect_type_Sg____getslice__(std::vector< rect_type > *self,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type i,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type j){
+SWIGINTERN std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > > *std_vector_Sl_rectpack2D_rect_xywhf_Sg____getslice__(std::vector< rectpack2D::rect_xywhf > *self,std::vector< rectpack2D::rect_xywhf >::difference_type i,std::vector< rectpack2D::rect_xywhf >::difference_type j){
       return swig::getslice(self, i, j, 1);
     }
-SWIGINTERN void std_vector_Sl_rect_type_Sg____setslice____SWIG_0(std::vector< rect_type > *self,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type i,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type j){
-      swig::setslice(self, i, j, 1, std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >());
+SWIGINTERN void std_vector_Sl_rectpack2D_rect_xywhf_Sg____setslice____SWIG_0(std::vector< rectpack2D::rect_xywhf > *self,std::vector< rectpack2D::rect_xywhf >::difference_type i,std::vector< rectpack2D::rect_xywhf >::difference_type j){
+      swig::setslice(self, i, j, 1, std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >());
     }
-SWIGINTERN void std_vector_Sl_rect_type_Sg____setslice____SWIG_1(std::vector< rect_type > *self,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type i,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type j,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > const &v){
+SWIGINTERN void std_vector_Sl_rectpack2D_rect_xywhf_Sg____setslice____SWIG_1(std::vector< rectpack2D::rect_xywhf > *self,std::vector< rectpack2D::rect_xywhf >::difference_type i,std::vector< rectpack2D::rect_xywhf >::difference_type j,std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > > const &v){
       swig::setslice(self, i, j, 1, v);
     }
-SWIGINTERN void std_vector_Sl_rect_type_Sg____delslice__(std::vector< rect_type > *self,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type i,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type j){
+SWIGINTERN void std_vector_Sl_rectpack2D_rect_xywhf_Sg____delslice__(std::vector< rectpack2D::rect_xywhf > *self,std::vector< rectpack2D::rect_xywhf >::difference_type i,std::vector< rectpack2D::rect_xywhf >::difference_type j){
       swig::delslice(self, i, j, 1);
     }
-SWIGINTERN void std_vector_Sl_rect_type_Sg____delitem____SWIG_0(std::vector< rect_type > *self,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type i){
+SWIGINTERN void std_vector_Sl_rectpack2D_rect_xywhf_Sg____delitem____SWIG_0(std::vector< rectpack2D::rect_xywhf > *self,std::vector< rectpack2D::rect_xywhf >::difference_type i){
       swig::erase(self, swig::getpos(self, i));
     }
-SWIGINTERN std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > *std_vector_Sl_rect_type_Sg____getitem____SWIG_0(std::vector< rect_type > *self,SWIGPY_SLICEOBJECT *slice){
+SWIGINTERN std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > > *std_vector_Sl_rectpack2D_rect_xywhf_Sg____getitem____SWIG_0(std::vector< rectpack2D::rect_xywhf > *self,SWIGPY_SLICEOBJECT *slice){
       Py_ssize_t i, j, step;
       if( !PySlice_Check(slice) ) {
         SWIG_Error(SWIG_TypeError, "Slice object expected.");
         return NULL;
       }
       PySlice_GetIndices(slice, (Py_ssize_t)self->size(), &i, &j, &step);
-      std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >::difference_type id = i;
-      std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >::difference_type jd = j;
+      std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >::difference_type id = i;
+      std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >::difference_type jd = j;
       return swig::getslice(self, id, jd, step);
     }
-SWIGINTERN void std_vector_Sl_rect_type_Sg____setitem____SWIG_0(std::vector< rect_type > *self,SWIGPY_SLICEOBJECT *slice,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > const &v){
+SWIGINTERN void std_vector_Sl_rectpack2D_rect_xywhf_Sg____setitem____SWIG_0(std::vector< rectpack2D::rect_xywhf > *self,SWIGPY_SLICEOBJECT *slice,std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > > const &v){
       Py_ssize_t i, j, step;
       if( !PySlice_Check(slice) ) {
         SWIG_Error(SWIG_TypeError, "Slice object expected.");
         return;
       }
       PySlice_GetIndices(slice, (Py_ssize_t)self->size(), &i, &j, &step);
-      std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >::difference_type id = i;
-      std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >::difference_type jd = j;
+      std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >::difference_type id = i;
+      std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >::difference_type jd = j;
       swig::setslice(self, id, jd, step, v);
     }
-SWIGINTERN void std_vector_Sl_rect_type_Sg____setitem____SWIG_1(std::vector< rect_type > *self,SWIGPY_SLICEOBJECT *slice){
+SWIGINTERN void std_vector_Sl_rectpack2D_rect_xywhf_Sg____setitem____SWIG_1(std::vector< rectpack2D::rect_xywhf > *self,SWIGPY_SLICEOBJECT *slice){
       Py_ssize_t i, j, step;
       if( !PySlice_Check(slice) ) {
         SWIG_Error(SWIG_TypeError, "Slice object expected.");
         return;
       }
       PySlice_GetIndices(slice, (Py_ssize_t)self->size(), &i, &j, &step);
-      std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >::difference_type id = i;
-      std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >::difference_type jd = j;
+      std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >::difference_type id = i;
+      std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >::difference_type jd = j;
       swig::delslice(self, id, jd, step);
     }
-SWIGINTERN void std_vector_Sl_rect_type_Sg____delitem____SWIG_1(std::vector< rect_type > *self,SWIGPY_SLICEOBJECT *slice){
+SWIGINTERN void std_vector_Sl_rectpack2D_rect_xywhf_Sg____delitem____SWIG_1(std::vector< rectpack2D::rect_xywhf > *self,SWIGPY_SLICEOBJECT *slice){
       Py_ssize_t i, j, step;
       if( !PySlice_Check(slice) ) {
         SWIG_Error(SWIG_TypeError, "Slice object expected.");
         return;
       }
       PySlice_GetIndices(slice, (Py_ssize_t)self->size(), &i, &j, &step);
-      std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >::difference_type id = i;
-      std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >::difference_type jd = j;
+      std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >::difference_type id = i;
+      std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >::difference_type jd = j;
       swig::delslice(self, id, jd, step);
     }
-SWIGINTERN std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &std_vector_Sl_rect_type_Sg____getitem____SWIG_1(std::vector< rect_type > const *self,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type i){
+SWIGINTERN std::vector< rectpack2D::rect_xywhf >::value_type const &std_vector_Sl_rectpack2D_rect_xywhf_Sg____getitem____SWIG_1(std::vector< rectpack2D::rect_xywhf > const *self,std::vector< rectpack2D::rect_xywhf >::difference_type i){
       return *(swig::cgetpos(self, i));
     }
 
@@ -5026,23 +5026,23 @@ namespace swig {
   };
 }
 
-SWIGINTERN void std_vector_Sl_rect_type_Sg____setitem____SWIG_2(std::vector< rect_type > *self,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type i,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &x){
+SWIGINTERN void std_vector_Sl_rectpack2D_rect_xywhf_Sg____setitem____SWIG_2(std::vector< rectpack2D::rect_xywhf > *self,std::vector< rectpack2D::rect_xywhf >::difference_type i,std::vector< rectpack2D::rect_xywhf >::value_type const &x){
       *(swig::getpos(self,i)) = x;
     }
-SWIGINTERN std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type std_vector_Sl_rect_type_Sg__pop(std::vector< rect_type > *self){
+SWIGINTERN std::vector< rectpack2D::rect_xywhf >::value_type std_vector_Sl_rectpack2D_rect_xywhf_Sg__pop(std::vector< rectpack2D::rect_xywhf > *self){
       if (self->size() == 0)
 	throw std::out_of_range("pop from empty container");
-      std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >::value_type x = self->back();
+      std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >::value_type x = self->back();
       self->pop_back();
       return x;
     }
-SWIGINTERN void std_vector_Sl_rect_type_Sg__append(std::vector< rect_type > *self,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &x){
+SWIGINTERN void std_vector_Sl_rectpack2D_rect_xywhf_Sg__append(std::vector< rectpack2D::rect_xywhf > *self,std::vector< rectpack2D::rect_xywhf >::value_type const &x){
       self->push_back(x);
     }
-SWIGINTERN std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator std_vector_Sl_rect_type_Sg__erase__SWIG_0(std::vector< rect_type > *self,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator pos){ return self->erase(pos); }
-SWIGINTERN std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator std_vector_Sl_rect_type_Sg__erase__SWIG_1(std::vector< rect_type > *self,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator first,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator last){ return self->erase(first, last); }
-SWIGINTERN std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator std_vector_Sl_rect_type_Sg__insert__SWIG_0(std::vector< rect_type > *self,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator pos,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &x){ return self->insert(pos, x); }
-SWIGINTERN void std_vector_Sl_rect_type_Sg__insert__SWIG_1(std::vector< rect_type > *self,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator pos,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type n,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &x){ self->insert(pos, n, x); }
+SWIGINTERN std::vector< rectpack2D::rect_xywhf >::iterator std_vector_Sl_rectpack2D_rect_xywhf_Sg__erase__SWIG_0(std::vector< rectpack2D::rect_xywhf > *self,std::vector< rectpack2D::rect_xywhf >::iterator pos){ return self->erase(pos); }
+SWIGINTERN std::vector< rectpack2D::rect_xywhf >::iterator std_vector_Sl_rectpack2D_rect_xywhf_Sg__erase__SWIG_1(std::vector< rectpack2D::rect_xywhf > *self,std::vector< rectpack2D::rect_xywhf >::iterator first,std::vector< rectpack2D::rect_xywhf >::iterator last){ return self->erase(first, last); }
+SWIGINTERN std::vector< rectpack2D::rect_xywhf >::iterator std_vector_Sl_rectpack2D_rect_xywhf_Sg__insert__SWIG_0(std::vector< rectpack2D::rect_xywhf > *self,std::vector< rectpack2D::rect_xywhf >::iterator pos,std::vector< rectpack2D::rect_xywhf >::value_type const &x){ return self->insert(pos, x); }
+SWIGINTERN void std_vector_Sl_rectpack2D_rect_xywhf_Sg__insert__SWIG_1(std::vector< rectpack2D::rect_xywhf > *self,std::vector< rectpack2D::rect_xywhf >::iterator pos,std::vector< rectpack2D::rect_xywhf >::size_type n,std::vector< rectpack2D::rect_xywhf >::value_type const &x){ self->insert(pos, n, x); }
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -7166,7 +7166,7 @@ SWIGINTERN PyObject *rect_xywhf_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObjec
 
 SWIGINTERN PyObject *_wrap_vec_rect_type_iterator(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
   PyObject **arg2 = (PyObject **) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -7177,12 +7177,12 @@ SWIGINTERN PyObject *_wrap_vec_rect_type_iterator(PyObject *self, PyObject *args
   (void)self;
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_iterator" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_iterator" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
-  result = (swig::SwigPyIterator *)std_vector_Sl_rect_type_Sg__iterator(arg1,arg2);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
+  result = (swig::SwigPyIterator *)std_vector_Sl_rectpack2D_rect_xywhf_Sg__iterator(arg1,arg2);
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_OWN |  0 );
   return resultobj;
 fail:
@@ -7192,7 +7192,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type___nonzero__(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
@@ -7201,12 +7201,12 @@ SWIGINTERN PyObject *_wrap_vec_rect_type___nonzero__(PyObject *self, PyObject *a
   (void)self;
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___nonzero__" "', argument " "1"" of type '" "std::vector< rect_type > const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___nonzero__" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > const *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
-  result = (bool)std_vector_Sl_rect_type_Sg____nonzero__((std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type > const *)arg1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
+  result = (bool)std_vector_Sl_rectpack2D_rect_xywhf_Sg____nonzero__((std::vector< rectpack2D::rect_xywhf > const *)arg1);
   resultobj = SWIG_From_bool(static_cast< bool >(result));
   return resultobj;
 fail:
@@ -7216,7 +7216,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type___bool__(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
@@ -7225,12 +7225,12 @@ SWIGINTERN PyObject *_wrap_vec_rect_type___bool__(PyObject *self, PyObject *args
   (void)self;
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___bool__" "', argument " "1"" of type '" "std::vector< rect_type > const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___bool__" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > const *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
-  result = (bool)std_vector_Sl_rect_type_Sg____bool__((std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type > const *)arg1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
+  result = (bool)std_vector_Sl_rectpack2D_rect_xywhf_Sg____bool__((std::vector< rectpack2D::rect_xywhf > const *)arg1);
   resultobj = SWIG_From_bool(static_cast< bool >(result));
   return resultobj;
 fail:
@@ -7240,21 +7240,21 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type___len__(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type result;
+  std::vector< rectpack2D::rect_xywhf >::size_type result;
   
   (void)self;
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___len__" "', argument " "1"" of type '" "std::vector< rect_type > const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___len__" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > const *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
-  result = std_vector_Sl_rect_type_Sg____len__((std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type > const *)arg1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
+  result = std_vector_Sl_rectpack2D_rect_xywhf_Sg____len__((std::vector< rectpack2D::rect_xywhf > const *)arg1);
   resultobj = SWIG_From_size_t(static_cast< size_t >(result));
   return resultobj;
 fail:
@@ -7264,9 +7264,9 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type___getslice__(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type arg2 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type arg3 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf >::difference_type arg2 ;
+  std::vector< rectpack2D::rect_xywhf >::difference_type arg3 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   ptrdiff_t val2 ;
@@ -7274,33 +7274,33 @@ SWIGINTERN PyObject *_wrap_vec_rect_type___getslice__(PyObject *self, PyObject *
   ptrdiff_t val3 ;
   int ecode3 = 0 ;
   PyObject *swig_obj[3] ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > *result = 0 ;
+  std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > > *result = 0 ;
   
   (void)self;
   if (!SWIG_Python_UnpackTuple(args, "vec_rect_type___getslice__", 3, 3, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___getslice__" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___getslice__" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
   ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vec_rect_type___getslice__" "', argument " "2"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vec_rect_type___getslice__" "', argument " "2"" of type '" "std::vector< rectpack2D::rect_xywhf >::difference_type""'");
   } 
-  arg2 = static_cast< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type >(val2);
+  arg2 = static_cast< std::vector< rectpack2D::rect_xywhf >::difference_type >(val2);
   ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
   if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "vec_rect_type___getslice__" "', argument " "3"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "vec_rect_type___getslice__" "', argument " "3"" of type '" "std::vector< rectpack2D::rect_xywhf >::difference_type""'");
   } 
-  arg3 = static_cast< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type >(val3);
+  arg3 = static_cast< std::vector< rectpack2D::rect_xywhf >::difference_type >(val3);
   try {
-    result = (std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > *)std_vector_Sl_rect_type_Sg____getslice__(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3));
+    result = (std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > > *)std_vector_Sl_rectpack2D_rect_xywhf_Sg____getslice__(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3));
   } catch(std::out_of_range &_e) {
     SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
   } catch(std::invalid_argument &_e) {
     SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
   }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_rect_type_t, SWIG_POINTER_OWN |  0 );
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, SWIG_POINTER_OWN |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -7309,9 +7309,9 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type___setslice____SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type arg2 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type arg3 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf >::difference_type arg2 ;
+  std::vector< rectpack2D::rect_xywhf >::difference_type arg3 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   ptrdiff_t val2 ;
@@ -7321,23 +7321,23 @@ SWIGINTERN PyObject *_wrap_vec_rect_type___setslice____SWIG_0(PyObject *self, Py
   
   (void)self;
   if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___setslice__" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___setslice__" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
   ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vec_rect_type___setslice__" "', argument " "2"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vec_rect_type___setslice__" "', argument " "2"" of type '" "std::vector< rectpack2D::rect_xywhf >::difference_type""'");
   } 
-  arg2 = static_cast< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type >(val2);
+  arg2 = static_cast< std::vector< rectpack2D::rect_xywhf >::difference_type >(val2);
   ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
   if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "vec_rect_type___setslice__" "', argument " "3"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "vec_rect_type___setslice__" "', argument " "3"" of type '" "std::vector< rectpack2D::rect_xywhf >::difference_type""'");
   } 
-  arg3 = static_cast< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type >(val3);
+  arg3 = static_cast< std::vector< rectpack2D::rect_xywhf >::difference_type >(val3);
   try {
-    std_vector_Sl_rect_type_Sg____setslice____SWIG_0(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3));
+    std_vector_Sl_rectpack2D_rect_xywhf_Sg____setslice____SWIG_0(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3));
   } catch(std::out_of_range &_e) {
     SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
   } catch(std::invalid_argument &_e) {
@@ -7352,10 +7352,10 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type___setslice____SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type arg2 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type arg3 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > *arg4 = 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf >::difference_type arg2 ;
+  std::vector< rectpack2D::rect_xywhf >::difference_type arg3 ;
+  std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > > *arg4 = 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   ptrdiff_t val2 ;
@@ -7366,34 +7366,34 @@ SWIGINTERN PyObject *_wrap_vec_rect_type___setslice____SWIG_1(PyObject *self, Py
   
   (void)self;
   if ((nobjs < 4) || (nobjs > 4)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___setslice__" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___setslice__" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
   ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vec_rect_type___setslice__" "', argument " "2"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vec_rect_type___setslice__" "', argument " "2"" of type '" "std::vector< rectpack2D::rect_xywhf >::difference_type""'");
   } 
-  arg2 = static_cast< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type >(val2);
+  arg2 = static_cast< std::vector< rectpack2D::rect_xywhf >::difference_type >(val2);
   ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
   if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "vec_rect_type___setslice__" "', argument " "3"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "vec_rect_type___setslice__" "', argument " "3"" of type '" "std::vector< rectpack2D::rect_xywhf >::difference_type""'");
   } 
-  arg3 = static_cast< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type >(val3);
+  arg3 = static_cast< std::vector< rectpack2D::rect_xywhf >::difference_type >(val3);
   {
-    std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > *ptr = (std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > *)0;
+    std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > > *ptr = (std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > > *)0;
     res4 = swig::asptr(swig_obj[3], &ptr);
     if (!SWIG_IsOK(res4)) {
-      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "vec_rect_type___setslice__" "', argument " "4"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > const &""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "vec_rect_type___setslice__" "', argument " "4"" of type '" "std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > > const &""'"); 
     }
     if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vec_rect_type___setslice__" "', argument " "4"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > const &""'"); 
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vec_rect_type___setslice__" "', argument " "4"" of type '" "std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > > const &""'"); 
     }
     arg4 = ptr;
   }
   try {
-    std_vector_Sl_rect_type_Sg____setslice____SWIG_1(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3),(std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > const &)*arg4);
+    std_vector_Sl_rectpack2D_rect_xywhf_Sg____setslice____SWIG_1(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3),(std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > > const &)*arg4);
   } catch(std::out_of_range &_e) {
     SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
   } catch(std::invalid_argument &_e) {
@@ -7418,7 +7418,7 @@ SWIGINTERN PyObject *_wrap_vec_rect_type___setslice__(PyObject *self, PyObject *
   --argc;
   if (argc == 3) {
     int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >**)(0));
+    int res = swig::asptr(argv[0], (std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >**)(0));
     _v = SWIG_CheckState(res);
     if (_v) {
       {
@@ -7438,7 +7438,7 @@ SWIGINTERN PyObject *_wrap_vec_rect_type___setslice__(PyObject *self, PyObject *
   }
   if (argc == 4) {
     int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >**)(0));
+    int res = swig::asptr(argv[0], (std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >**)(0));
     _v = SWIG_CheckState(res);
     if (_v) {
       {
@@ -7451,7 +7451,7 @@ SWIGINTERN PyObject *_wrap_vec_rect_type___setslice__(PyObject *self, PyObject *
           _v = SWIG_CheckState(res);
         }
         if (_v) {
-          int res = swig::asptr(argv[3], (std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >**)(0));
+          int res = swig::asptr(argv[3], (std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >**)(0));
           _v = SWIG_CheckState(res);
           if (_v) {
             return _wrap_vec_rect_type___setslice____SWIG_1(self, argc, argv);
@@ -7464,17 +7464,17 @@ SWIGINTERN PyObject *_wrap_vec_rect_type___setslice__(PyObject *self, PyObject *
 fail:
   SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'vec_rect_type___setslice__'.\n"
     "  Possible C/C++ prototypes are:\n"
-    "    std::vector< rect_type >::__setslice__(std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type)\n"
-    "    std::vector< rect_type >::__setslice__(std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > const &)\n");
+    "    std::vector< rectpack2D::rect_xywhf >::__setslice__(std::vector< rectpack2D::rect_xywhf >::difference_type,std::vector< rectpack2D::rect_xywhf >::difference_type)\n"
+    "    std::vector< rectpack2D::rect_xywhf >::__setslice__(std::vector< rectpack2D::rect_xywhf >::difference_type,std::vector< rectpack2D::rect_xywhf >::difference_type,std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > > const &)\n");
   return 0;
 }
 
 
 SWIGINTERN PyObject *_wrap_vec_rect_type___delslice__(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type arg2 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type arg3 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf >::difference_type arg2 ;
+  std::vector< rectpack2D::rect_xywhf >::difference_type arg3 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   ptrdiff_t val2 ;
@@ -7485,23 +7485,23 @@ SWIGINTERN PyObject *_wrap_vec_rect_type___delslice__(PyObject *self, PyObject *
   
   (void)self;
   if (!SWIG_Python_UnpackTuple(args, "vec_rect_type___delslice__", 3, 3, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___delslice__" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___delslice__" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
   ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vec_rect_type___delslice__" "', argument " "2"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vec_rect_type___delslice__" "', argument " "2"" of type '" "std::vector< rectpack2D::rect_xywhf >::difference_type""'");
   } 
-  arg2 = static_cast< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type >(val2);
+  arg2 = static_cast< std::vector< rectpack2D::rect_xywhf >::difference_type >(val2);
   ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
   if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "vec_rect_type___delslice__" "', argument " "3"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "vec_rect_type___delslice__" "', argument " "3"" of type '" "std::vector< rectpack2D::rect_xywhf >::difference_type""'");
   } 
-  arg3 = static_cast< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type >(val3);
+  arg3 = static_cast< std::vector< rectpack2D::rect_xywhf >::difference_type >(val3);
   try {
-    std_vector_Sl_rect_type_Sg____delslice__(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3));
+    std_vector_Sl_rectpack2D_rect_xywhf_Sg____delslice__(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3));
   } catch(std::out_of_range &_e) {
     SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
   } catch(std::invalid_argument &_e) {
@@ -7516,8 +7516,8 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type___delitem____SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type arg2 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf >::difference_type arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   ptrdiff_t val2 ;
@@ -7525,18 +7525,18 @@ SWIGINTERN PyObject *_wrap_vec_rect_type___delitem____SWIG_0(PyObject *self, Py_
   
   (void)self;
   if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___delitem__" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___delitem__" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
   ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vec_rect_type___delitem__" "', argument " "2"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vec_rect_type___delitem__" "', argument " "2"" of type '" "std::vector< rectpack2D::rect_xywhf >::difference_type""'");
   } 
-  arg2 = static_cast< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type >(val2);
+  arg2 = static_cast< std::vector< rectpack2D::rect_xywhf >::difference_type >(val2);
   try {
-    std_vector_Sl_rect_type_Sg____delitem____SWIG_0(arg1,SWIG_STD_MOVE(arg2));
+    std_vector_Sl_rectpack2D_rect_xywhf_Sg____delitem____SWIG_0(arg1,SWIG_STD_MOVE(arg2));
   } catch(std::out_of_range &_e) {
     SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
   } catch(std::invalid_argument &_e) {
@@ -7551,19 +7551,19 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type___getitem____SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
   SWIGPY_SLICEOBJECT *arg2 = (SWIGPY_SLICEOBJECT *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > *result = 0 ;
+  std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > > *result = 0 ;
   
   (void)self;
   if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___getitem__" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___getitem__" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
   {
     if (!PySlice_Check(swig_obj[1])) {
       SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vec_rect_type___getitem__" "', argument " "2"" of type '" "SWIGPY_SLICEOBJECT *""'");
@@ -7571,13 +7571,13 @@ SWIGINTERN PyObject *_wrap_vec_rect_type___getitem____SWIG_0(PyObject *self, Py_
     arg2 = (SWIGPY_SLICEOBJECT *) swig_obj[1];
   }
   try {
-    result = (std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > *)std_vector_Sl_rect_type_Sg____getitem____SWIG_0(arg1,arg2);
+    result = (std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > > *)std_vector_Sl_rectpack2D_rect_xywhf_Sg____getitem____SWIG_0(arg1,arg2);
   } catch(std::out_of_range &_e) {
     SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
   } catch(std::invalid_argument &_e) {
     SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
   }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_rect_type_t, SWIG_POINTER_OWN |  0 );
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, SWIG_POINTER_OWN |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -7586,20 +7586,20 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type___setitem____SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
   SWIGPY_SLICEOBJECT *arg2 = (SWIGPY_SLICEOBJECT *) 0 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > *arg3 = 0 ;
+  std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > > *arg3 = 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   int res3 = SWIG_OLDOBJ ;
   
   (void)self;
   if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___setitem__" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___setitem__" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
   {
     if (!PySlice_Check(swig_obj[1])) {
       SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vec_rect_type___setitem__" "', argument " "2"" of type '" "SWIGPY_SLICEOBJECT *""'");
@@ -7607,18 +7607,18 @@ SWIGINTERN PyObject *_wrap_vec_rect_type___setitem____SWIG_0(PyObject *self, Py_
     arg2 = (SWIGPY_SLICEOBJECT *) swig_obj[1];
   }
   {
-    std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > *ptr = (std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > *)0;
+    std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > > *ptr = (std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > > *)0;
     res3 = swig::asptr(swig_obj[2], &ptr);
     if (!SWIG_IsOK(res3)) {
-      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "vec_rect_type___setitem__" "', argument " "3"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > const &""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "vec_rect_type___setitem__" "', argument " "3"" of type '" "std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > > const &""'"); 
     }
     if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vec_rect_type___setitem__" "', argument " "3"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > const &""'"); 
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vec_rect_type___setitem__" "', argument " "3"" of type '" "std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > > const &""'"); 
     }
     arg3 = ptr;
   }
   try {
-    std_vector_Sl_rect_type_Sg____setitem____SWIG_0(arg1,arg2,(std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > const &)*arg3);
+    std_vector_Sl_rectpack2D_rect_xywhf_Sg____setitem____SWIG_0(arg1,arg2,(std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > > const &)*arg3);
   } catch(std::out_of_range &_e) {
     SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
   } catch(std::invalid_argument &_e) {
@@ -7635,18 +7635,18 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type___setitem____SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
   SWIGPY_SLICEOBJECT *arg2 = (SWIGPY_SLICEOBJECT *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   
   (void)self;
   if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___setitem__" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___setitem__" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
   {
     if (!PySlice_Check(swig_obj[1])) {
       SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vec_rect_type___setitem__" "', argument " "2"" of type '" "SWIGPY_SLICEOBJECT *""'");
@@ -7654,7 +7654,7 @@ SWIGINTERN PyObject *_wrap_vec_rect_type___setitem____SWIG_1(PyObject *self, Py_
     arg2 = (SWIGPY_SLICEOBJECT *) swig_obj[1];
   }
   try {
-    std_vector_Sl_rect_type_Sg____setitem____SWIG_1(arg1,arg2);
+    std_vector_Sl_rectpack2D_rect_xywhf_Sg____setitem____SWIG_1(arg1,arg2);
   } catch(std::out_of_range &_e) {
     SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
   } catch(std::invalid_argument &_e) {
@@ -7669,18 +7669,18 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type___delitem____SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
   SWIGPY_SLICEOBJECT *arg2 = (SWIGPY_SLICEOBJECT *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   
   (void)self;
   if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___delitem__" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___delitem__" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
   {
     if (!PySlice_Check(swig_obj[1])) {
       SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vec_rect_type___delitem__" "', argument " "2"" of type '" "SWIGPY_SLICEOBJECT *""'");
@@ -7688,7 +7688,7 @@ SWIGINTERN PyObject *_wrap_vec_rect_type___delitem____SWIG_1(PyObject *self, Py_
     arg2 = (SWIGPY_SLICEOBJECT *) swig_obj[1];
   }
   try {
-    std_vector_Sl_rect_type_Sg____delitem____SWIG_1(arg1,arg2);
+    std_vector_Sl_rectpack2D_rect_xywhf_Sg____delitem____SWIG_1(arg1,arg2);
   } catch(std::out_of_range &_e) {
     SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
   } catch(std::invalid_argument &_e) {
@@ -7711,7 +7711,7 @@ SWIGINTERN PyObject *_wrap_vec_rect_type___delitem__(PyObject *self, PyObject *a
   --argc;
   if (argc == 2) {
     int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >**)(0));
+    int res = swig::asptr(argv[0], (std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >**)(0));
     _v = SWIG_CheckState(res);
     if (_v) {
       {
@@ -7724,7 +7724,7 @@ SWIGINTERN PyObject *_wrap_vec_rect_type___delitem__(PyObject *self, PyObject *a
   }
   if (argc == 2) {
     int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >**)(0));
+    int res = swig::asptr(argv[0], (std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >**)(0));
     _v = SWIG_CheckState(res);
     if (_v) {
       {
@@ -7740,41 +7740,41 @@ SWIGINTERN PyObject *_wrap_vec_rect_type___delitem__(PyObject *self, PyObject *a
 fail:
   SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'vec_rect_type___delitem__'.\n"
     "  Possible C/C++ prototypes are:\n"
-    "    std::vector< rect_type >::__delitem__(std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type)\n"
-    "    std::vector< rect_type >::__delitem__(SWIGPY_SLICEOBJECT *)\n");
+    "    std::vector< rectpack2D::rect_xywhf >::__delitem__(std::vector< rectpack2D::rect_xywhf >::difference_type)\n"
+    "    std::vector< rectpack2D::rect_xywhf >::__delitem__(SWIGPY_SLICEOBJECT *)\n");
   return 0;
 }
 
 
 SWIGINTERN PyObject *_wrap_vec_rect_type___getitem____SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type arg2 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf >::difference_type arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   ptrdiff_t val2 ;
   int ecode2 = 0 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type *result = 0 ;
+  std::vector< rectpack2D::rect_xywhf >::value_type *result = 0 ;
   
   (void)self;
   if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___getitem__" "', argument " "1"" of type '" "std::vector< rect_type > const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___getitem__" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > const *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
   ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vec_rect_type___getitem__" "', argument " "2"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vec_rect_type___getitem__" "', argument " "2"" of type '" "std::vector< rectpack2D::rect_xywhf >::difference_type""'");
   } 
-  arg2 = static_cast< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type >(val2);
+  arg2 = static_cast< std::vector< rectpack2D::rect_xywhf >::difference_type >(val2);
   try {
-    result = (std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type *) &std_vector_Sl_rect_type_Sg____getitem____SWIG_1((std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type > const *)arg1,SWIG_STD_MOVE(arg2));
+    result = (std::vector< rectpack2D::rect_xywhf >::value_type *) &std_vector_Sl_rectpack2D_rect_xywhf_Sg____getitem____SWIG_1((std::vector< rectpack2D::rect_xywhf > const *)arg1,SWIG_STD_MOVE(arg2));
   } catch(std::out_of_range &_e) {
     SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
   }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_empty_spacesT_true_default_empty_spaces_t__output_rect_type, 0 |  0 );
-  (void)swig::container_owner<swig::traits<std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_rectpack2D__rect_xywhf, 0 |  0 );
+  (void)swig::container_owner<swig::traits<std::vector< rectpack2D::rect_xywhf >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
   return resultobj;
 fail:
   return NULL;
@@ -7791,7 +7791,7 @@ SWIGINTERN PyObject *_wrap_vec_rect_type___getitem__(PyObject *self, PyObject *a
   --argc;
   if (argc == 2) {
     int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >**)(0));
+    int res = swig::asptr(argv[0], (std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >**)(0));
     _v = SWIG_CheckState(res);
     if (_v) {
       {
@@ -7804,7 +7804,7 @@ SWIGINTERN PyObject *_wrap_vec_rect_type___getitem__(PyObject *self, PyObject *a
   }
   if (argc == 2) {
     int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >**)(0));
+    int res = swig::asptr(argv[0], (std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >**)(0));
     _v = SWIG_CheckState(res);
     if (_v) {
       {
@@ -7820,17 +7820,17 @@ SWIGINTERN PyObject *_wrap_vec_rect_type___getitem__(PyObject *self, PyObject *a
 fail:
   SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'vec_rect_type___getitem__'.\n"
     "  Possible C/C++ prototypes are:\n"
-    "    std::vector< rect_type >::__getitem__(SWIGPY_SLICEOBJECT *)\n"
-    "    std::vector< rect_type >::__getitem__(std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type) const\n");
+    "    std::vector< rectpack2D::rect_xywhf >::__getitem__(SWIGPY_SLICEOBJECT *)\n"
+    "    std::vector< rectpack2D::rect_xywhf >::__getitem__(std::vector< rectpack2D::rect_xywhf >::difference_type) const\n");
   return 0;
 }
 
 
 SWIGINTERN PyObject *_wrap_vec_rect_type___setitem____SWIG_2(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type arg2 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type *arg3 = 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf >::difference_type arg2 ;
+  std::vector< rectpack2D::rect_xywhf >::value_type *arg3 = 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   ptrdiff_t val2 ;
@@ -7840,26 +7840,26 @@ SWIGINTERN PyObject *_wrap_vec_rect_type___setitem____SWIG_2(PyObject *self, Py_
   
   (void)self;
   if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___setitem__" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type___setitem__" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
   ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vec_rect_type___setitem__" "', argument " "2"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vec_rect_type___setitem__" "', argument " "2"" of type '" "std::vector< rectpack2D::rect_xywhf >::difference_type""'");
   } 
-  arg2 = static_cast< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type >(val2);
-  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_empty_spacesT_true_default_empty_spaces_t__output_rect_type,  0  | 0);
+  arg2 = static_cast< std::vector< rectpack2D::rect_xywhf >::difference_type >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_rectpack2D__rect_xywhf,  0  | 0);
   if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "vec_rect_type___setitem__" "', argument " "3"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "vec_rect_type___setitem__" "', argument " "3"" of type '" "std::vector< rectpack2D::rect_xywhf >::value_type const &""'"); 
   }
   if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vec_rect_type___setitem__" "', argument " "3"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vec_rect_type___setitem__" "', argument " "3"" of type '" "std::vector< rectpack2D::rect_xywhf >::value_type const &""'"); 
   }
-  arg3 = reinterpret_cast< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type * >(argp3);
+  arg3 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf >::value_type * >(argp3);
   try {
-    std_vector_Sl_rect_type_Sg____setitem____SWIG_2(arg1,SWIG_STD_MOVE(arg2),(empty_spaces< true,default_empty_spaces >::output_rect_type const &)*arg3);
+    std_vector_Sl_rectpack2D_rect_xywhf_Sg____setitem____SWIG_2(arg1,SWIG_STD_MOVE(arg2),(rectpack2D::rect_xywhf const &)*arg3);
   } catch(std::out_of_range &_e) {
     SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
   }
@@ -7880,7 +7880,7 @@ SWIGINTERN PyObject *_wrap_vec_rect_type___setitem__(PyObject *self, PyObject *a
   --argc;
   if (argc == 2) {
     int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >**)(0));
+    int res = swig::asptr(argv[0], (std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >**)(0));
     _v = SWIG_CheckState(res);
     if (_v) {
       {
@@ -7893,14 +7893,14 @@ SWIGINTERN PyObject *_wrap_vec_rect_type___setitem__(PyObject *self, PyObject *a
   }
   if (argc == 3) {
     int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >**)(0));
+    int res = swig::asptr(argv[0], (std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >**)(0));
     _v = SWIG_CheckState(res);
     if (_v) {
       {
         _v = PySlice_Check(argv[1]);
       }
       if (_v) {
-        int res = swig::asptr(argv[2], (std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >**)(0));
+        int res = swig::asptr(argv[2], (std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >**)(0));
         _v = SWIG_CheckState(res);
         if (_v) {
           return _wrap_vec_rect_type___setitem____SWIG_0(self, argc, argv);
@@ -7910,7 +7910,7 @@ SWIGINTERN PyObject *_wrap_vec_rect_type___setitem__(PyObject *self, PyObject *a
   }
   if (argc == 3) {
     int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >**)(0));
+    int res = swig::asptr(argv[0], (std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >**)(0));
     _v = SWIG_CheckState(res);
     if (_v) {
       {
@@ -7918,7 +7918,7 @@ SWIGINTERN PyObject *_wrap_vec_rect_type___setitem__(PyObject *self, PyObject *a
         _v = SWIG_CheckState(res);
       }
       if (_v) {
-        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_empty_spacesT_true_default_empty_spaces_t__output_rect_type, SWIG_POINTER_NO_NULL | 0);
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_rectpack2D__rect_xywhf, SWIG_POINTER_NO_NULL | 0);
         _v = SWIG_CheckState(res);
         if (_v) {
           return _wrap_vec_rect_type___setitem____SWIG_2(self, argc, argv);
@@ -7930,35 +7930,35 @@ SWIGINTERN PyObject *_wrap_vec_rect_type___setitem__(PyObject *self, PyObject *a
 fail:
   SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'vec_rect_type___setitem__'.\n"
     "  Possible C/C++ prototypes are:\n"
-    "    std::vector< rect_type >::__setitem__(SWIGPY_SLICEOBJECT *,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > const &)\n"
-    "    std::vector< rect_type >::__setitem__(SWIGPY_SLICEOBJECT *)\n"
-    "    std::vector< rect_type >::__setitem__(std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::difference_type,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &)\n");
+    "    std::vector< rectpack2D::rect_xywhf >::__setitem__(SWIGPY_SLICEOBJECT *,std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > > const &)\n"
+    "    std::vector< rectpack2D::rect_xywhf >::__setitem__(SWIGPY_SLICEOBJECT *)\n"
+    "    std::vector< rectpack2D::rect_xywhf >::__setitem__(std::vector< rectpack2D::rect_xywhf >::difference_type,std::vector< rectpack2D::rect_xywhf >::value_type const &)\n");
   return 0;
 }
 
 
 SWIGINTERN PyObject *_wrap_vec_rect_type_pop(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type result;
+  std::vector< rectpack2D::rect_xywhf >::value_type result;
   
   (void)self;
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_pop" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_pop" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
   try {
-    result = std_vector_Sl_rect_type_Sg__pop(arg1);
+    result = std_vector_Sl_rectpack2D_rect_xywhf_Sg__pop(arg1);
   } catch(std::out_of_range &_e) {
     SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
   }
-  resultobj = SWIG_NewPointerObj((new std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type(result)), SWIGTYPE_p_empty_spacesT_true_default_empty_spaces_t__output_rect_type, SWIG_POINTER_OWN |  0 );
+  resultobj = SWIG_NewPointerObj((new std::vector< rectpack2D::rect_xywhf >::value_type(result)), SWIGTYPE_p_rectpack2D__rect_xywhf, SWIG_POINTER_OWN |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -7967,8 +7967,8 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type_append(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type *arg2 = 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf >::value_type *arg2 = 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 = 0 ;
@@ -7977,20 +7977,20 @@ SWIGINTERN PyObject *_wrap_vec_rect_type_append(PyObject *self, PyObject *args) 
   
   (void)self;
   if (!SWIG_Python_UnpackTuple(args, "vec_rect_type_append", 2, 2, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_append" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_append" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
-  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_empty_spacesT_true_default_empty_spaces_t__output_rect_type,  0  | 0);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_rectpack2D__rect_xywhf,  0  | 0);
   if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "vec_rect_type_append" "', argument " "2"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "vec_rect_type_append" "', argument " "2"" of type '" "std::vector< rectpack2D::rect_xywhf >::value_type const &""'"); 
   }
   if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vec_rect_type_append" "', argument " "2"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vec_rect_type_append" "', argument " "2"" of type '" "std::vector< rectpack2D::rect_xywhf >::value_type const &""'"); 
   }
-  arg2 = reinterpret_cast< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type * >(argp2);
-  std_vector_Sl_rect_type_Sg__append(arg1,(empty_spaces< true,default_empty_spaces >::output_rect_type const &)*arg2);
+  arg2 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf >::value_type * >(argp2);
+  std_vector_Sl_rectpack2D_rect_xywhf_Sg__append(arg1,(rectpack2D::rect_xywhf const &)*arg2);
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -8000,12 +8000,12 @@ fail:
 
 SWIGINTERN PyObject *_wrap_new_vec_rect_type__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **SWIGUNUSEDPARM(swig_obj)) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *result = 0 ;
+  std::vector< rectpack2D::rect_xywhf > *result = 0 ;
   
   (void)self;
   if ((nobjs < 0) || (nobjs > 0)) SWIG_fail;
-  result = (std::vector< rect_type > *)new std::vector< rect_type >();
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_rect_type_t, SWIG_POINTER_NEW |  0 );
+  result = (std::vector< rectpack2D::rect_xywhf > *)new std::vector< rectpack2D::rect_xywhf >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, SWIG_POINTER_NEW |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -8014,25 +8014,25 @@ fail:
 
 SWIGINTERN PyObject *_wrap_new_vec_rect_type__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = 0 ;
   int res1 = SWIG_OLDOBJ ;
-  std::vector< rect_type > *result = 0 ;
+  std::vector< rectpack2D::rect_xywhf > *result = 0 ;
   
   (void)self;
   if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
   {
-    std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > *ptr = (std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > *)0;
+    std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > > *ptr = (std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > > *)0;
     res1 = swig::asptr(swig_obj[0], &ptr);
     if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_vec_rect_type" "', argument " "1"" of type '" "std::vector< rect_type > const &""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_vec_rect_type" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > const &""'"); 
     }
     if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_vec_rect_type" "', argument " "1"" of type '" "std::vector< rect_type > const &""'"); 
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_vec_rect_type" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > const &""'"); 
     }
     arg1 = ptr;
   }
-  result = (std::vector< rect_type > *)new std::vector< rect_type >((std::vector< rect_type > const &)*arg1);
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_rect_type_t, SWIG_POINTER_NEW |  0 );
+  result = (std::vector< rectpack2D::rect_xywhf > *)new std::vector< rectpack2D::rect_xywhf >((std::vector< rectpack2D::rect_xywhf > const &)*arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, SWIG_POINTER_NEW |  0 );
   if (SWIG_IsNewObj(res1)) delete arg1;
   return resultobj;
 fail:
@@ -8043,7 +8043,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type_empty(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
@@ -8052,12 +8052,12 @@ SWIGINTERN PyObject *_wrap_vec_rect_type_empty(PyObject *self, PyObject *args) {
   (void)self;
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_empty" "', argument " "1"" of type '" "std::vector< rect_type > const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_empty" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > const *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
-  result = (bool)((std::vector< rect_type > const *)arg1)->empty();
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
+  result = (bool)((std::vector< rectpack2D::rect_xywhf > const *)arg1)->empty();
   resultobj = SWIG_From_bool(static_cast< bool >(result));
   return resultobj;
 fail:
@@ -8067,21 +8067,21 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type_size(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type result;
+  std::vector< rectpack2D::rect_xywhf >::size_type result;
   
   (void)self;
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_size" "', argument " "1"" of type '" "std::vector< rect_type > const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_size" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > const *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
-  result = ((std::vector< rect_type > const *)arg1)->size();
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
+  result = ((std::vector< rectpack2D::rect_xywhf > const *)arg1)->size();
   resultobj = SWIG_From_size_t(static_cast< size_t >(result));
   return resultobj;
 fail:
@@ -8091,8 +8091,8 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type_swap(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
-  std::vector< rect_type > *arg2 = 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg2 = 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 = 0 ;
@@ -8101,19 +8101,19 @@ SWIGINTERN PyObject *_wrap_vec_rect_type_swap(PyObject *self, PyObject *args) {
   
   (void)self;
   if (!SWIG_Python_UnpackTuple(args, "vec_rect_type_swap", 2, 2, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_swap" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_swap" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
-  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_std__vectorT_rect_type_t,  0 );
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t,  0 );
   if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "vec_rect_type_swap" "', argument " "2"" of type '" "std::vector< rect_type > &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "vec_rect_type_swap" "', argument " "2"" of type '" "std::vector< rectpack2D::rect_xywhf > &""'"); 
   }
   if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vec_rect_type_swap" "', argument " "2"" of type '" "std::vector< rect_type > &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vec_rect_type_swap" "', argument " "2"" of type '" "std::vector< rectpack2D::rect_xywhf > &""'"); 
   }
-  arg2 = reinterpret_cast< std::vector< rect_type > * >(argp2);
+  arg2 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp2);
   (arg1)->swap(*arg2);
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -8124,22 +8124,22 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type_begin(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  SwigValueWrapper< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator > result;
+  std::vector< rectpack2D::rect_xywhf >::iterator result;
   
   (void)self;
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_begin" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_begin" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
   result = (arg1)->begin();
-  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator & >(result)),
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< rectpack2D::rect_xywhf >::iterator & >(result)),
     swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
   return resultobj;
 fail:
@@ -8149,22 +8149,22 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type_end(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  SwigValueWrapper< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator > result;
+  std::vector< rectpack2D::rect_xywhf >::iterator result;
   
   (void)self;
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_end" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_end" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
   result = (arg1)->end();
-  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator & >(result)),
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< rectpack2D::rect_xywhf >::iterator & >(result)),
     swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
   return resultobj;
 fail:
@@ -8174,22 +8174,22 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type_rbegin(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  SwigValueWrapper< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::reverse_iterator > result;
+  std::vector< rectpack2D::rect_xywhf >::reverse_iterator result;
   
   (void)self;
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_rbegin" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_rbegin" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
   result = (arg1)->rbegin();
-  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::reverse_iterator & >(result)),
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< rectpack2D::rect_xywhf >::reverse_iterator & >(result)),
     swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
   return resultobj;
 fail:
@@ -8199,22 +8199,22 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type_rend(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  SwigValueWrapper< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::reverse_iterator > result;
+  std::vector< rectpack2D::rect_xywhf >::reverse_iterator result;
   
   (void)self;
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_rend" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_rend" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
   result = (arg1)->rend();
-  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::reverse_iterator & >(result)),
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< rectpack2D::rect_xywhf >::reverse_iterator & >(result)),
     swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
   return resultobj;
 fail:
@@ -8224,7 +8224,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type_clear(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
@@ -8232,11 +8232,11 @@ SWIGINTERN PyObject *_wrap_vec_rect_type_clear(PyObject *self, PyObject *args) {
   (void)self;
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_clear" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_clear" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
   (arg1)->clear();
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -8247,22 +8247,22 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type_get_allocator(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  SwigValueWrapper< std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > result;
+  SwigValueWrapper< std::allocator< rectpack2D::rect_xywhf > > result;
   
   (void)self;
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_get_allocator" "', argument " "1"" of type '" "std::vector< rect_type > const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_get_allocator" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > const *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
-  result = ((std::vector< rect_type > const *)arg1)->get_allocator();
-  resultobj = SWIG_NewPointerObj((new std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::allocator_type(result)), SWIGTYPE_p_std__allocatorT_empty_spacesT_true_default_empty_spaces_t__output_rect_type_t, SWIG_POINTER_OWN |  0 );
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
+  result = ((std::vector< rectpack2D::rect_xywhf > const *)arg1)->get_allocator();
+  resultobj = SWIG_NewPointerObj((new std::vector< rectpack2D::rect_xywhf >::allocator_type(result)), SWIGTYPE_p_std__allocatorT_rectpack2D__rect_xywhf_t, SWIG_POINTER_OWN |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -8271,20 +8271,20 @@ fail:
 
 SWIGINTERN PyObject *_wrap_new_vec_rect_type__SWIG_2(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type arg1 ;
+  std::vector< rectpack2D::rect_xywhf >::size_type arg1 ;
   size_t val1 ;
   int ecode1 = 0 ;
-  std::vector< rect_type > *result = 0 ;
+  std::vector< rectpack2D::rect_xywhf > *result = 0 ;
   
   (void)self;
   if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
   ecode1 = SWIG_AsVal_size_t(swig_obj[0], &val1);
   if (!SWIG_IsOK(ecode1)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_vec_rect_type" "', argument " "1"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_vec_rect_type" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf >::size_type""'");
   } 
-  arg1 = static_cast< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type >(val1);
-  result = (std::vector< rect_type > *)new std::vector< rect_type >(arg1);
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_rect_type_t, SWIG_POINTER_NEW |  0 );
+  arg1 = static_cast< std::vector< rectpack2D::rect_xywhf >::size_type >(val1);
+  result = (std::vector< rectpack2D::rect_xywhf > *)new std::vector< rectpack2D::rect_xywhf >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, SWIG_POINTER_NEW |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -8293,7 +8293,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type_pop_back(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
@@ -8301,11 +8301,11 @@ SWIGINTERN PyObject *_wrap_vec_rect_type_pop_back(PyObject *self, PyObject *args
   (void)self;
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_pop_back" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_pop_back" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
   (arg1)->pop_back();
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -8316,8 +8316,8 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type_resize__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type arg2 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf >::size_type arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   size_t val2 ;
@@ -8325,16 +8325,16 @@ SWIGINTERN PyObject *_wrap_vec_rect_type_resize__SWIG_0(PyObject *self, Py_ssize
   
   (void)self;
   if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_resize" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_resize" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
   ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vec_rect_type_resize" "', argument " "2"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vec_rect_type_resize" "', argument " "2"" of type '" "std::vector< rectpack2D::rect_xywhf >::size_type""'");
   } 
-  arg2 = static_cast< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type >(val2);
+  arg2 = static_cast< std::vector< rectpack2D::rect_xywhf >::size_type >(val2);
   (arg1)->resize(arg2);
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -8345,34 +8345,34 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type_erase__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
-  SwigValueWrapper< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator > arg2 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf >::iterator arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   swig::SwigPyIterator *iter2 = 0 ;
   int res2 ;
-  SwigValueWrapper< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator > result;
+  std::vector< rectpack2D::rect_xywhf >::iterator result;
   
   (void)self;
   if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_erase" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_erase" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
   res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
   if (!SWIG_IsOK(res2) || !iter2) {
-    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vec_rect_type_erase" "', argument " "2"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator""'");
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vec_rect_type_erase" "', argument " "2"" of type '" "std::vector< rectpack2D::rect_xywhf >::iterator""'");
   } else {
-    swig::SwigPyIterator_T<std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator > *>(iter2);
+    swig::SwigPyIterator_T<std::vector< rectpack2D::rect_xywhf >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< rectpack2D::rect_xywhf >::iterator > *>(iter2);
     if (iter_t) {
       arg2 = iter_t->get_current();
     } else {
-      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vec_rect_type_erase" "', argument " "2"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator""'");
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vec_rect_type_erase" "', argument " "2"" of type '" "std::vector< rectpack2D::rect_xywhf >::iterator""'");
     }
   }
-  result = std_vector_Sl_rect_type_Sg__erase__SWIG_0(arg1,SWIG_STD_MOVE(arg2));
-  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator & >(result)),
+  result = std_vector_Sl_rectpack2D_rect_xywhf_Sg__erase__SWIG_0(arg1,SWIG_STD_MOVE(arg2));
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< rectpack2D::rect_xywhf >::iterator & >(result)),
     swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
   return resultobj;
 fail:
@@ -8382,48 +8382,48 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type_erase__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
-  SwigValueWrapper< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator > arg2 ;
-  SwigValueWrapper< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator > arg3 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf >::iterator arg2 ;
+  std::vector< rectpack2D::rect_xywhf >::iterator arg3 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   swig::SwigPyIterator *iter2 = 0 ;
   int res2 ;
   swig::SwigPyIterator *iter3 = 0 ;
   int res3 ;
-  SwigValueWrapper< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator > result;
+  std::vector< rectpack2D::rect_xywhf >::iterator result;
   
   (void)self;
   if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_erase" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_erase" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
   res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
   if (!SWIG_IsOK(res2) || !iter2) {
-    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vec_rect_type_erase" "', argument " "2"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator""'");
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vec_rect_type_erase" "', argument " "2"" of type '" "std::vector< rectpack2D::rect_xywhf >::iterator""'");
   } else {
-    swig::SwigPyIterator_T<std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator > *>(iter2);
+    swig::SwigPyIterator_T<std::vector< rectpack2D::rect_xywhf >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< rectpack2D::rect_xywhf >::iterator > *>(iter2);
     if (iter_t) {
       arg2 = iter_t->get_current();
     } else {
-      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vec_rect_type_erase" "', argument " "2"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator""'");
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vec_rect_type_erase" "', argument " "2"" of type '" "std::vector< rectpack2D::rect_xywhf >::iterator""'");
     }
   }
   res3 = SWIG_ConvertPtr(swig_obj[2], SWIG_as_voidptrptr(&iter3), swig::SwigPyIterator::descriptor(), 0);
   if (!SWIG_IsOK(res3) || !iter3) {
-    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vec_rect_type_erase" "', argument " "3"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator""'");
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vec_rect_type_erase" "', argument " "3"" of type '" "std::vector< rectpack2D::rect_xywhf >::iterator""'");
   } else {
-    swig::SwigPyIterator_T<std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator > *>(iter3);
+    swig::SwigPyIterator_T<std::vector< rectpack2D::rect_xywhf >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< rectpack2D::rect_xywhf >::iterator > *>(iter3);
     if (iter_t) {
       arg3 = iter_t->get_current();
     } else {
-      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vec_rect_type_erase" "', argument " "3"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator""'");
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vec_rect_type_erase" "', argument " "3"" of type '" "std::vector< rectpack2D::rect_xywhf >::iterator""'");
     }
   }
-  result = std_vector_Sl_rect_type_Sg__erase__SWIG_1(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3));
-  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator & >(result)),
+  result = std_vector_Sl_rectpack2D_rect_xywhf_Sg__erase__SWIG_1(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3));
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< rectpack2D::rect_xywhf >::iterator & >(result)),
     swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
   return resultobj;
 fail:
@@ -8441,12 +8441,12 @@ SWIGINTERN PyObject *_wrap_vec_rect_type_erase(PyObject *self, PyObject *args) {
   --argc;
   if (argc == 2) {
     int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >**)(0));
+    int res = swig::asptr(argv[0], (std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >**)(0));
     _v = SWIG_CheckState(res);
     if (_v) {
       swig::SwigPyIterator *iter = 0;
       int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
-      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator > *>(iter) != 0));
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< rectpack2D::rect_xywhf >::iterator > *>(iter) != 0));
       if (_v) {
         return _wrap_vec_rect_type_erase__SWIG_0(self, argc, argv);
       }
@@ -8454,16 +8454,16 @@ SWIGINTERN PyObject *_wrap_vec_rect_type_erase(PyObject *self, PyObject *args) {
   }
   if (argc == 3) {
     int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >**)(0));
+    int res = swig::asptr(argv[0], (std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >**)(0));
     _v = SWIG_CheckState(res);
     if (_v) {
       swig::SwigPyIterator *iter = 0;
       int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
-      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator > *>(iter) != 0));
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< rectpack2D::rect_xywhf >::iterator > *>(iter) != 0));
       if (_v) {
         swig::SwigPyIterator *iter = 0;
         int res = SWIG_ConvertPtr(argv[2], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
-        _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator > *>(iter) != 0));
+        _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< rectpack2D::rect_xywhf >::iterator > *>(iter) != 0));
         if (_v) {
           return _wrap_vec_rect_type_erase__SWIG_1(self, argc, argv);
         }
@@ -8474,39 +8474,39 @@ SWIGINTERN PyObject *_wrap_vec_rect_type_erase(PyObject *self, PyObject *args) {
 fail:
   SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'vec_rect_type_erase'.\n"
     "  Possible C/C++ prototypes are:\n"
-    "    std::vector< rect_type >::erase(std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator)\n"
-    "    std::vector< rect_type >::erase(std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator)\n");
+    "    std::vector< rectpack2D::rect_xywhf >::erase(std::vector< rectpack2D::rect_xywhf >::iterator)\n"
+    "    std::vector< rectpack2D::rect_xywhf >::erase(std::vector< rectpack2D::rect_xywhf >::iterator,std::vector< rectpack2D::rect_xywhf >::iterator)\n");
   return 0;
 }
 
 
 SWIGINTERN PyObject *_wrap_new_vec_rect_type__SWIG_3(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type arg1 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type *arg2 = 0 ;
+  std::vector< rectpack2D::rect_xywhf >::size_type arg1 ;
+  std::vector< rectpack2D::rect_xywhf >::value_type *arg2 = 0 ;
   size_t val1 ;
   int ecode1 = 0 ;
   void *argp2 = 0 ;
   int res2 = 0 ;
-  std::vector< rect_type > *result = 0 ;
+  std::vector< rectpack2D::rect_xywhf > *result = 0 ;
   
   (void)self;
   if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
   ecode1 = SWIG_AsVal_size_t(swig_obj[0], &val1);
   if (!SWIG_IsOK(ecode1)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_vec_rect_type" "', argument " "1"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_vec_rect_type" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf >::size_type""'");
   } 
-  arg1 = static_cast< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type >(val1);
-  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_empty_spacesT_true_default_empty_spaces_t__output_rect_type,  0  | 0);
+  arg1 = static_cast< std::vector< rectpack2D::rect_xywhf >::size_type >(val1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_rectpack2D__rect_xywhf,  0  | 0);
   if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "new_vec_rect_type" "', argument " "2"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "new_vec_rect_type" "', argument " "2"" of type '" "std::vector< rectpack2D::rect_xywhf >::value_type const &""'"); 
   }
   if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_vec_rect_type" "', argument " "2"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_vec_rect_type" "', argument " "2"" of type '" "std::vector< rectpack2D::rect_xywhf >::value_type const &""'"); 
   }
-  arg2 = reinterpret_cast< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type * >(argp2);
-  result = (std::vector< rect_type > *)new std::vector< rect_type >(arg1,(std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &)*arg2);
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_rect_type_t, SWIG_POINTER_NEW |  0 );
+  arg2 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf >::value_type * >(argp2);
+  result = (std::vector< rectpack2D::rect_xywhf > *)new std::vector< rectpack2D::rect_xywhf >(arg1,(std::vector< rectpack2D::rect_xywhf >::value_type const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, SWIG_POINTER_NEW |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -8536,7 +8536,7 @@ SWIGINTERN PyObject *_wrap_new_vec_rect_type(PyObject *self, PyObject *args) {
   }
   if (argc == 1) {
     int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >**)(0));
+    int res = swig::asptr(argv[0], (std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >**)(0));
     _v = SWIG_CheckState(res);
     if (_v) {
       return _wrap_new_vec_rect_type__SWIG_1(self, argc, argv);
@@ -8549,7 +8549,7 @@ SWIGINTERN PyObject *_wrap_new_vec_rect_type(PyObject *self, PyObject *args) {
       _v = SWIG_CheckState(res);
     }
     if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_empty_spacesT_true_default_empty_spaces_t__output_rect_type, SWIG_POINTER_NO_NULL | 0);
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_rectpack2D__rect_xywhf, SWIG_POINTER_NO_NULL | 0);
       _v = SWIG_CheckState(res);
       if (_v) {
         return _wrap_new_vec_rect_type__SWIG_3(self, argc, argv);
@@ -8560,18 +8560,18 @@ SWIGINTERN PyObject *_wrap_new_vec_rect_type(PyObject *self, PyObject *args) {
 fail:
   SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'new_vec_rect_type'.\n"
     "  Possible C/C++ prototypes are:\n"
-    "    std::vector< rect_type >::vector()\n"
-    "    std::vector< rect_type >::vector(std::vector< rect_type > const &)\n"
-    "    std::vector< rect_type >::vector(std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type)\n"
-    "    std::vector< rect_type >::vector(std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &)\n");
+    "    std::vector< rectpack2D::rect_xywhf >::vector()\n"
+    "    std::vector< rectpack2D::rect_xywhf >::vector(std::vector< rectpack2D::rect_xywhf > const &)\n"
+    "    std::vector< rectpack2D::rect_xywhf >::vector(std::vector< rectpack2D::rect_xywhf >::size_type)\n"
+    "    std::vector< rectpack2D::rect_xywhf >::vector(std::vector< rectpack2D::rect_xywhf >::size_type,std::vector< rectpack2D::rect_xywhf >::value_type const &)\n");
   return 0;
 }
 
 
 SWIGINTERN PyObject *_wrap_vec_rect_type_push_back(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type *arg2 = 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf >::value_type *arg2 = 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 = 0 ;
@@ -8580,20 +8580,20 @@ SWIGINTERN PyObject *_wrap_vec_rect_type_push_back(PyObject *self, PyObject *arg
   
   (void)self;
   if (!SWIG_Python_UnpackTuple(args, "vec_rect_type_push_back", 2, 2, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_push_back" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_push_back" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
-  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_empty_spacesT_true_default_empty_spaces_t__output_rect_type,  0  | 0);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_rectpack2D__rect_xywhf,  0  | 0);
   if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "vec_rect_type_push_back" "', argument " "2"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "vec_rect_type_push_back" "', argument " "2"" of type '" "std::vector< rectpack2D::rect_xywhf >::value_type const &""'"); 
   }
   if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vec_rect_type_push_back" "', argument " "2"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vec_rect_type_push_back" "', argument " "2"" of type '" "std::vector< rectpack2D::rect_xywhf >::value_type const &""'"); 
   }
-  arg2 = reinterpret_cast< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type * >(argp2);
-  (arg1)->push_back((std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &)*arg2);
+  arg2 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf >::value_type * >(argp2);
+  (arg1)->push_back((std::vector< rectpack2D::rect_xywhf >::value_type const &)*arg2);
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -8603,23 +8603,23 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type_front(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type *result = 0 ;
+  std::vector< rectpack2D::rect_xywhf >::value_type *result = 0 ;
   
   (void)self;
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_front" "', argument " "1"" of type '" "std::vector< rect_type > const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_front" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > const *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
-  result = (std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type *) &((std::vector< rect_type > const *)arg1)->front();
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_empty_spacesT_true_default_empty_spaces_t__output_rect_type, 0 |  0 );
-  (void)swig::container_owner<swig::traits<std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
+  result = (std::vector< rectpack2D::rect_xywhf >::value_type *) &((std::vector< rectpack2D::rect_xywhf > const *)arg1)->front();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_rectpack2D__rect_xywhf, 0 |  0 );
+  (void)swig::container_owner<swig::traits<std::vector< rectpack2D::rect_xywhf >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
   return resultobj;
 fail:
   return NULL;
@@ -8628,23 +8628,23 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type_back(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type *result = 0 ;
+  std::vector< rectpack2D::rect_xywhf >::value_type *result = 0 ;
   
   (void)self;
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_back" "', argument " "1"" of type '" "std::vector< rect_type > const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_back" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > const *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
-  result = (std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type *) &((std::vector< rect_type > const *)arg1)->back();
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_empty_spacesT_true_default_empty_spaces_t__output_rect_type, 0 |  0 );
-  (void)swig::container_owner<swig::traits<std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
+  result = (std::vector< rectpack2D::rect_xywhf >::value_type *) &((std::vector< rectpack2D::rect_xywhf > const *)arg1)->back();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_rectpack2D__rect_xywhf, 0 |  0 );
+  (void)swig::container_owner<swig::traits<std::vector< rectpack2D::rect_xywhf >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
   return resultobj;
 fail:
   return NULL;
@@ -8653,9 +8653,9 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type_assign(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type arg2 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type *arg3 = 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf >::size_type arg2 ;
+  std::vector< rectpack2D::rect_xywhf >::value_type *arg3 = 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   size_t val2 ;
@@ -8666,25 +8666,25 @@ SWIGINTERN PyObject *_wrap_vec_rect_type_assign(PyObject *self, PyObject *args) 
   
   (void)self;
   if (!SWIG_Python_UnpackTuple(args, "vec_rect_type_assign", 3, 3, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_assign" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_assign" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
   ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vec_rect_type_assign" "', argument " "2"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vec_rect_type_assign" "', argument " "2"" of type '" "std::vector< rectpack2D::rect_xywhf >::size_type""'");
   } 
-  arg2 = static_cast< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type >(val2);
-  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_empty_spacesT_true_default_empty_spaces_t__output_rect_type,  0  | 0);
+  arg2 = static_cast< std::vector< rectpack2D::rect_xywhf >::size_type >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_rectpack2D__rect_xywhf,  0  | 0);
   if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "vec_rect_type_assign" "', argument " "3"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "vec_rect_type_assign" "', argument " "3"" of type '" "std::vector< rectpack2D::rect_xywhf >::value_type const &""'"); 
   }
   if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vec_rect_type_assign" "', argument " "3"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vec_rect_type_assign" "', argument " "3"" of type '" "std::vector< rectpack2D::rect_xywhf >::value_type const &""'"); 
   }
-  arg3 = reinterpret_cast< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type * >(argp3);
-  (arg1)->assign(arg2,(std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &)*arg3);
+  arg3 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf >::value_type * >(argp3);
+  (arg1)->assign(arg2,(std::vector< rectpack2D::rect_xywhf >::value_type const &)*arg3);
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -8694,9 +8694,9 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type_resize__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type arg2 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type *arg3 = 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf >::size_type arg2 ;
+  std::vector< rectpack2D::rect_xywhf >::value_type *arg3 = 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   size_t val2 ;
@@ -8706,25 +8706,25 @@ SWIGINTERN PyObject *_wrap_vec_rect_type_resize__SWIG_1(PyObject *self, Py_ssize
   
   (void)self;
   if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_resize" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_resize" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
   ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vec_rect_type_resize" "', argument " "2"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vec_rect_type_resize" "', argument " "2"" of type '" "std::vector< rectpack2D::rect_xywhf >::size_type""'");
   } 
-  arg2 = static_cast< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type >(val2);
-  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_empty_spacesT_true_default_empty_spaces_t__output_rect_type,  0  | 0);
+  arg2 = static_cast< std::vector< rectpack2D::rect_xywhf >::size_type >(val2);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_rectpack2D__rect_xywhf,  0  | 0);
   if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "vec_rect_type_resize" "', argument " "3"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "vec_rect_type_resize" "', argument " "3"" of type '" "std::vector< rectpack2D::rect_xywhf >::value_type const &""'"); 
   }
   if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vec_rect_type_resize" "', argument " "3"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vec_rect_type_resize" "', argument " "3"" of type '" "std::vector< rectpack2D::rect_xywhf >::value_type const &""'"); 
   }
-  arg3 = reinterpret_cast< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type * >(argp3);
-  (arg1)->resize(arg2,(std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &)*arg3);
+  arg3 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf >::value_type * >(argp3);
+  (arg1)->resize(arg2,(std::vector< rectpack2D::rect_xywhf >::value_type const &)*arg3);
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -8742,7 +8742,7 @@ SWIGINTERN PyObject *_wrap_vec_rect_type_resize(PyObject *self, PyObject *args) 
   --argc;
   if (argc == 2) {
     int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >**)(0));
+    int res = swig::asptr(argv[0], (std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >**)(0));
     _v = SWIG_CheckState(res);
     if (_v) {
       {
@@ -8756,7 +8756,7 @@ SWIGINTERN PyObject *_wrap_vec_rect_type_resize(PyObject *self, PyObject *args) 
   }
   if (argc == 3) {
     int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >**)(0));
+    int res = swig::asptr(argv[0], (std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >**)(0));
     _v = SWIG_CheckState(res);
     if (_v) {
       {
@@ -8764,7 +8764,7 @@ SWIGINTERN PyObject *_wrap_vec_rect_type_resize(PyObject *self, PyObject *args) 
         _v = SWIG_CheckState(res);
       }
       if (_v) {
-        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_empty_spacesT_true_default_empty_spaces_t__output_rect_type, SWIG_POINTER_NO_NULL | 0);
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_rectpack2D__rect_xywhf, SWIG_POINTER_NO_NULL | 0);
         _v = SWIG_CheckState(res);
         if (_v) {
           return _wrap_vec_rect_type_resize__SWIG_1(self, argc, argv);
@@ -8776,53 +8776,53 @@ SWIGINTERN PyObject *_wrap_vec_rect_type_resize(PyObject *self, PyObject *args) 
 fail:
   SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'vec_rect_type_resize'.\n"
     "  Possible C/C++ prototypes are:\n"
-    "    std::vector< rect_type >::resize(std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type)\n"
-    "    std::vector< rect_type >::resize(std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &)\n");
+    "    std::vector< rectpack2D::rect_xywhf >::resize(std::vector< rectpack2D::rect_xywhf >::size_type)\n"
+    "    std::vector< rectpack2D::rect_xywhf >::resize(std::vector< rectpack2D::rect_xywhf >::size_type,std::vector< rectpack2D::rect_xywhf >::value_type const &)\n");
   return 0;
 }
 
 
 SWIGINTERN PyObject *_wrap_vec_rect_type_insert__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
-  SwigValueWrapper< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator > arg2 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type *arg3 = 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf >::iterator arg2 ;
+  std::vector< rectpack2D::rect_xywhf >::value_type *arg3 = 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   swig::SwigPyIterator *iter2 = 0 ;
   int res2 ;
   void *argp3 = 0 ;
   int res3 = 0 ;
-  SwigValueWrapper< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator > result;
+  std::vector< rectpack2D::rect_xywhf >::iterator result;
   
   (void)self;
   if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_insert" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_insert" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
   res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
   if (!SWIG_IsOK(res2) || !iter2) {
-    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vec_rect_type_insert" "', argument " "2"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator""'");
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vec_rect_type_insert" "', argument " "2"" of type '" "std::vector< rectpack2D::rect_xywhf >::iterator""'");
   } else {
-    swig::SwigPyIterator_T<std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator > *>(iter2);
+    swig::SwigPyIterator_T<std::vector< rectpack2D::rect_xywhf >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< rectpack2D::rect_xywhf >::iterator > *>(iter2);
     if (iter_t) {
       arg2 = iter_t->get_current();
     } else {
-      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vec_rect_type_insert" "', argument " "2"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator""'");
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vec_rect_type_insert" "', argument " "2"" of type '" "std::vector< rectpack2D::rect_xywhf >::iterator""'");
     }
   }
-  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_empty_spacesT_true_default_empty_spaces_t__output_rect_type,  0  | 0);
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_rectpack2D__rect_xywhf,  0  | 0);
   if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "vec_rect_type_insert" "', argument " "3"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "vec_rect_type_insert" "', argument " "3"" of type '" "std::vector< rectpack2D::rect_xywhf >::value_type const &""'"); 
   }
   if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vec_rect_type_insert" "', argument " "3"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vec_rect_type_insert" "', argument " "3"" of type '" "std::vector< rectpack2D::rect_xywhf >::value_type const &""'"); 
   }
-  arg3 = reinterpret_cast< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type * >(argp3);
-  result = std_vector_Sl_rect_type_Sg__insert__SWIG_0(arg1,SWIG_STD_MOVE(arg2),(empty_spaces< true,default_empty_spaces >::output_rect_type const &)*arg3);
-  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator & >(result)),
+  arg3 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf >::value_type * >(argp3);
+  result = std_vector_Sl_rectpack2D_rect_xywhf_Sg__insert__SWIG_0(arg1,SWIG_STD_MOVE(arg2),(rectpack2D::rect_xywhf const &)*arg3);
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< rectpack2D::rect_xywhf >::iterator & >(result)),
     swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
   return resultobj;
 fail:
@@ -8832,10 +8832,10 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type_insert__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
-  SwigValueWrapper< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator > arg2 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type arg3 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type *arg4 = 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf >::iterator arg2 ;
+  std::vector< rectpack2D::rect_xywhf >::size_type arg3 ;
+  std::vector< rectpack2D::rect_xywhf >::value_type *arg4 = 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   swig::SwigPyIterator *iter2 = 0 ;
@@ -8847,36 +8847,36 @@ SWIGINTERN PyObject *_wrap_vec_rect_type_insert__SWIG_1(PyObject *self, Py_ssize
   
   (void)self;
   if ((nobjs < 4) || (nobjs > 4)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_insert" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_insert" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
   res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
   if (!SWIG_IsOK(res2) || !iter2) {
-    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vec_rect_type_insert" "', argument " "2"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator""'");
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vec_rect_type_insert" "', argument " "2"" of type '" "std::vector< rectpack2D::rect_xywhf >::iterator""'");
   } else {
-    swig::SwigPyIterator_T<std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator > *>(iter2);
+    swig::SwigPyIterator_T<std::vector< rectpack2D::rect_xywhf >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< rectpack2D::rect_xywhf >::iterator > *>(iter2);
     if (iter_t) {
       arg2 = iter_t->get_current();
     } else {
-      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vec_rect_type_insert" "', argument " "2"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator""'");
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vec_rect_type_insert" "', argument " "2"" of type '" "std::vector< rectpack2D::rect_xywhf >::iterator""'");
     }
   }
   ecode3 = SWIG_AsVal_size_t(swig_obj[2], &val3);
   if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "vec_rect_type_insert" "', argument " "3"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "vec_rect_type_insert" "', argument " "3"" of type '" "std::vector< rectpack2D::rect_xywhf >::size_type""'");
   } 
-  arg3 = static_cast< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type >(val3);
-  res4 = SWIG_ConvertPtr(swig_obj[3], &argp4, SWIGTYPE_p_empty_spacesT_true_default_empty_spaces_t__output_rect_type,  0  | 0);
+  arg3 = static_cast< std::vector< rectpack2D::rect_xywhf >::size_type >(val3);
+  res4 = SWIG_ConvertPtr(swig_obj[3], &argp4, SWIGTYPE_p_rectpack2D__rect_xywhf,  0  | 0);
   if (!SWIG_IsOK(res4)) {
-    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "vec_rect_type_insert" "', argument " "4"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "vec_rect_type_insert" "', argument " "4"" of type '" "std::vector< rectpack2D::rect_xywhf >::value_type const &""'"); 
   }
   if (!argp4) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vec_rect_type_insert" "', argument " "4"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vec_rect_type_insert" "', argument " "4"" of type '" "std::vector< rectpack2D::rect_xywhf >::value_type const &""'"); 
   }
-  arg4 = reinterpret_cast< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type * >(argp4);
-  std_vector_Sl_rect_type_Sg__insert__SWIG_1(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3),(empty_spaces< true,default_empty_spaces >::output_rect_type const &)*arg4);
+  arg4 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf >::value_type * >(argp4);
+  std_vector_Sl_rectpack2D_rect_xywhf_Sg__insert__SWIG_1(arg1,SWIG_STD_MOVE(arg2),SWIG_STD_MOVE(arg3),(rectpack2D::rect_xywhf const &)*arg4);
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -8894,14 +8894,14 @@ SWIGINTERN PyObject *_wrap_vec_rect_type_insert(PyObject *self, PyObject *args) 
   --argc;
   if (argc == 3) {
     int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >**)(0));
+    int res = swig::asptr(argv[0], (std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >**)(0));
     _v = SWIG_CheckState(res);
     if (_v) {
       swig::SwigPyIterator *iter = 0;
       int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
-      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator > *>(iter) != 0));
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< rectpack2D::rect_xywhf >::iterator > *>(iter) != 0));
       if (_v) {
-        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_empty_spacesT_true_default_empty_spaces_t__output_rect_type, SWIG_POINTER_NO_NULL | 0);
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_rectpack2D__rect_xywhf, SWIG_POINTER_NO_NULL | 0);
         _v = SWIG_CheckState(res);
         if (_v) {
           return _wrap_vec_rect_type_insert__SWIG_0(self, argc, argv);
@@ -8911,19 +8911,19 @@ SWIGINTERN PyObject *_wrap_vec_rect_type_insert(PyObject *self, PyObject *args) 
   }
   if (argc == 4) {
     int _v = 0;
-    int res = swig::asptr(argv[0], (std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > >**)(0));
+    int res = swig::asptr(argv[0], (std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > >**)(0));
     _v = SWIG_CheckState(res);
     if (_v) {
       swig::SwigPyIterator *iter = 0;
       int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
-      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator > *>(iter) != 0));
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< rectpack2D::rect_xywhf >::iterator > *>(iter) != 0));
       if (_v) {
         {
           int res = SWIG_AsVal_size_t(argv[2], NULL);
           _v = SWIG_CheckState(res);
         }
         if (_v) {
-          int res = SWIG_ConvertPtr(argv[3], 0, SWIGTYPE_p_empty_spacesT_true_default_empty_spaces_t__output_rect_type, SWIG_POINTER_NO_NULL | 0);
+          int res = SWIG_ConvertPtr(argv[3], 0, SWIGTYPE_p_rectpack2D__rect_xywhf, SWIG_POINTER_NO_NULL | 0);
           _v = SWIG_CheckState(res);
           if (_v) {
             return _wrap_vec_rect_type_insert__SWIG_1(self, argc, argv);
@@ -8936,16 +8936,16 @@ SWIGINTERN PyObject *_wrap_vec_rect_type_insert(PyObject *self, PyObject *args) 
 fail:
   SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'vec_rect_type_insert'.\n"
     "  Possible C/C++ prototypes are:\n"
-    "    std::vector< rect_type >::insert(std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &)\n"
-    "    std::vector< rect_type >::insert(std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::iterator,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type,std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type const &)\n");
+    "    std::vector< rectpack2D::rect_xywhf >::insert(std::vector< rectpack2D::rect_xywhf >::iterator,std::vector< rectpack2D::rect_xywhf >::value_type const &)\n"
+    "    std::vector< rectpack2D::rect_xywhf >::insert(std::vector< rectpack2D::rect_xywhf >::iterator,std::vector< rectpack2D::rect_xywhf >::size_type,std::vector< rectpack2D::rect_xywhf >::value_type const &)\n");
   return 0;
 }
 
 
 SWIGINTERN PyObject *_wrap_vec_rect_type_reserve(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type arg2 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf >::size_type arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   size_t val2 ;
@@ -8954,16 +8954,16 @@ SWIGINTERN PyObject *_wrap_vec_rect_type_reserve(PyObject *self, PyObject *args)
   
   (void)self;
   if (!SWIG_Python_UnpackTuple(args, "vec_rect_type_reserve", 2, 2, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_reserve" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_reserve" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
   ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vec_rect_type_reserve" "', argument " "2"" of type '" "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vec_rect_type_reserve" "', argument " "2"" of type '" "std::vector< rectpack2D::rect_xywhf >::size_type""'");
   } 
-  arg2 = static_cast< std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type >(val2);
+  arg2 = static_cast< std::vector< rectpack2D::rect_xywhf >::size_type >(val2);
   (arg1)->reserve(arg2);
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -8974,21 +8974,21 @@ fail:
 
 SWIGINTERN PyObject *_wrap_vec_rect_type_capacity(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::size_type result;
+  std::vector< rectpack2D::rect_xywhf >::size_type result;
   
   (void)self;
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_capacity" "', argument " "1"" of type '" "std::vector< rect_type > const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vec_rect_type_capacity" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > const *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
-  result = ((std::vector< rect_type > const *)arg1)->capacity();
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
+  result = ((std::vector< rectpack2D::rect_xywhf > const *)arg1)->capacity();
   resultobj = SWIG_From_size_t(static_cast< size_t >(result));
   return resultobj;
 fail:
@@ -8998,7 +8998,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_delete_vec_rect_type(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  std::vector< rect_type > *arg1 = (std::vector< rect_type > *) 0 ;
+  std::vector< rectpack2D::rect_xywhf > *arg1 = (std::vector< rectpack2D::rect_xywhf > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
@@ -9006,11 +9006,11 @@ SWIGINTERN PyObject *_wrap_delete_vec_rect_type(PyObject *self, PyObject *args) 
   (void)self;
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rect_type_t, SWIG_POINTER_DISOWN |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, SWIG_POINTER_DISOWN |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_vec_rect_type" "', argument " "1"" of type '" "std::vector< rect_type > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_vec_rect_type" "', argument " "1"" of type '" "std::vector< rectpack2D::rect_xywhf > *""'"); 
   }
-  arg1 = reinterpret_cast< std::vector< rect_type > * >(argp1);
+  arg1 = reinterpret_cast< std::vector< rectpack2D::rect_xywhf > * >(argp1);
   delete arg1;
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -9022,7 +9022,7 @@ fail:
 SWIGINTERN PyObject *vec_rect_type_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *obj;
   if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
-  SWIG_TypeNewClientData(SWIGTYPE_p_std__vectorT_rect_type_t, SWIG_NewClientData(obj));
+  SWIG_TypeNewClientData(SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
 }
 
@@ -9032,23 +9032,24 @@ SWIGINTERN PyObject *vec_rect_type_swiginit(PyObject *SWIGUNUSEDPARM(self), PyOb
 
 SWIGINTERN PyObject *_wrap_find_best_packing_spaces_type(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  vec_rect_type arg1 ;
+  vec_rect_type *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
   PyObject *swig_obj[1] ;
   rectpack2D::rect_wh result;
   
   (void)self;
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  {
-    std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > *ptr = (std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > *)0;
-    int res = swig::asptr(swig_obj[0], &ptr);
-    if (!SWIG_IsOK(res) || !ptr) {
-      SWIG_exception_fail(SWIG_ArgError((ptr ? res : SWIG_TypeError)), "in method '" "find_best_packing_spaces_type" "', argument " "1"" of type '" "vec_rect_type""'"); 
-    }
-    arg1 = *ptr;
-    if (SWIG_IsNewObj(res)) delete ptr;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1, SWIGTYPE_p_std__vectorT_rectpack2D__rect_xywhf_t,  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_best_packing_spaces_type" "', argument " "1"" of type '" "vec_rect_type &""'"); 
   }
-  result = find_best_packing_spaces_type(SWIG_STD_MOVE(arg1));
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "find_best_packing_spaces_type" "', argument " "1"" of type '" "vec_rect_type &""'"); 
+  }
+  arg1 = reinterpret_cast< vec_rect_type * >(argp1);
+  result = find_best_packing_spaces_type(*arg1);
   resultobj = SWIG_NewPointerObj((new rectpack2D::rect_wh(result)), SWIGTYPE_p_rectpack2D__rect_wh, SWIG_POINTER_OWN |  0 );
   return resultobj;
 fail:
@@ -9163,17 +9164,17 @@ static swig_type_info _swigt__p_allocator_type = {"_p_allocator_type", "allocato
 static swig_type_info _swigt__p_char = {"_p_char", "char *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_difference_type = {"_p_difference_type", "difference_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_empty_spacesT_true_default_empty_spaces_t = {"_p_empty_spacesT_true_default_empty_spaces_t", "spaces_type *|empty_spaces< true,default_empty_spaces > *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_empty_spacesT_true_default_empty_spaces_t__output_rect_type = {"_p_empty_spacesT_true_default_empty_spaces_t__output_rect_type", "rect_type *|rectpack2D::output_rect_t< spaces_type > *|std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::value_type *|empty_spaces< true,default_empty_spaces >::output_rect_type *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_empty_spacesT_true_default_empty_spaces_t__output_rect_type = {"_p_empty_spacesT_true_default_empty_spaces_t__output_rect_type", "rect_type *|rectpack2D::output_rect_t< spaces_type > *|empty_spaces< true,default_empty_spaces >::output_rect_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_flipping_option = {"_p_flipping_option", "flipping_option *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_int = {"_p_int", "rectpack2D::total_area_type *|int *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_p_PyObject = {"_p_p_PyObject", "PyObject **", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_rectpack2D__rect_wh = {"_p_rectpack2D__rect_wh", "rectpack2D::rect_wh *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_rectpack2D__rect_xywh = {"_p_rectpack2D__rect_xywh", "rectpack2D::space_rect *|rectpack2D::rect_xywh *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_rectpack2D__rect_xywhf = {"_p_rectpack2D__rect_xywhf", "rectpack2D::rect_xywhf *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_rectpack2D__rect_xywhf = {"_p_rectpack2D__rect_xywhf", "std::vector< rectpack2D::rect_xywhf >::value_type *|rectpack2D::rect_xywhf *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_size_type = {"_p_size_type", "size_type *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_std__allocatorT_empty_spacesT_true_default_empty_spaces_t__output_rect_type_t = {"_p_std__allocatorT_empty_spacesT_true_default_empty_spaces_t__output_rect_type_t", "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type >::allocator_type *|std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__allocatorT_rectpack2D__rect_xywhf_t = {"_p_std__allocatorT_rectpack2D__rect_xywhf_t", "std::vector< rectpack2D::rect_xywhf >::allocator_type *|std::allocator< rectpack2D::rect_xywhf > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__invalid_argument = {"_p_std__invalid_argument", "std::invalid_argument *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_std__vectorT_rect_type_t = {"_p_std__vectorT_rect_type_t", "std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type,std::allocator< empty_spaces< true,default_empty_spaces >::output_rect_type > > *|std::vector< rect_type > *|vec_rect_type *|std::vector< empty_spaces< true,default_empty_spaces >::output_rect_type > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__vectorT_rectpack2D__rect_xywhf_t = {"_p_std__vectorT_rectpack2D__rect_xywhf_t", "std::vector< rectpack2D::rect_xywhf,std::allocator< rectpack2D::rect_xywhf > > *|vec_rect_type *|std::vector< rectpack2D::rect_xywhf > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_swig__SwigPyIterator = {"_p_swig__SwigPyIterator", "swig::SwigPyIterator *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_value_type = {"_p_value_type", "value_type *", 0, 0, (void*)0, 0};
 
@@ -9190,9 +9191,9 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_rectpack2D__rect_xywh,
   &_swigt__p_rectpack2D__rect_xywhf,
   &_swigt__p_size_type,
-  &_swigt__p_std__allocatorT_empty_spacesT_true_default_empty_spaces_t__output_rect_type_t,
+  &_swigt__p_std__allocatorT_rectpack2D__rect_xywhf_t,
   &_swigt__p_std__invalid_argument,
-  &_swigt__p_std__vectorT_rect_type_t,
+  &_swigt__p_std__vectorT_rectpack2D__rect_xywhf_t,
   &_swigt__p_swig__SwigPyIterator,
   &_swigt__p_value_type,
 };
@@ -9209,9 +9210,9 @@ static swig_cast_info _swigc__p_rectpack2D__rect_wh[] = {  {&_swigt__p_rectpack2
 static swig_cast_info _swigc__p_rectpack2D__rect_xywh[] = {  {&_swigt__p_rectpack2D__rect_xywh, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_rectpack2D__rect_xywhf[] = {  {&_swigt__p_rectpack2D__rect_xywhf, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_size_type[] = {  {&_swigt__p_size_type, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_std__allocatorT_empty_spacesT_true_default_empty_spaces_t__output_rect_type_t[] = {  {&_swigt__p_std__allocatorT_empty_spacesT_true_default_empty_spaces_t__output_rect_type_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__allocatorT_rectpack2D__rect_xywhf_t[] = {  {&_swigt__p_std__allocatorT_rectpack2D__rect_xywhf_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__invalid_argument[] = {  {&_swigt__p_std__invalid_argument, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_std__vectorT_rect_type_t[] = {  {&_swigt__p_std__vectorT_rect_type_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__vectorT_rectpack2D__rect_xywhf_t[] = {  {&_swigt__p_std__vectorT_rectpack2D__rect_xywhf_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_swig__SwigPyIterator[] = {  {&_swigt__p_swig__SwigPyIterator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_value_type[] = {  {&_swigt__p_value_type, 0, 0, 0},{0, 0, 0, 0}};
 
@@ -9228,9 +9229,9 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_rectpack2D__rect_xywh,
   _swigc__p_rectpack2D__rect_xywhf,
   _swigc__p_size_type,
-  _swigc__p_std__allocatorT_empty_spacesT_true_default_empty_spaces_t__output_rect_type_t,
+  _swigc__p_std__allocatorT_rectpack2D__rect_xywhf_t,
   _swigc__p_std__invalid_argument,
-  _swigc__p_std__vectorT_rect_type_t,
+  _swigc__p_std__vectorT_rectpack2D__rect_xywhf_t,
   _swigc__p_swig__SwigPyIterator,
   _swigc__p_value_type,
 };

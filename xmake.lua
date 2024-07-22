@@ -12,6 +12,16 @@ target("_rectpack2d")
     add_files("swig/*.cxx")
     add_packages("python")
     set_extension(".pyd")
+    before_build(function () 
+        local outdata, errdata = os.iorun('swig -python -c++ swig/rectpack2d.i')
+        print(outdata)
+        if errdata then 
+            print(errdata)
+        end
+    end)
+    after_build(function (target) 
+        os.cp(target:targetfile(), "swig/")
+    end)
 target_end()
 
 target("test")

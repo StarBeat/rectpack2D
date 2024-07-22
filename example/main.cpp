@@ -83,7 +83,7 @@ int main() {
 
 	std::vector<rect_type> rectangles;
 
-	rectangles.emplace_back(rect_xywh(0, 0, 20, 40));
+	rectangles.emplace_back(rect_xywhf(0, 0, 20, 40, false));
 	rectangles.emplace_back(rect_xywh(0, 0, 120, 40));
 	rectangles.emplace_back(rect_xywh(0, 0, 85, 59));
 	rectangles.emplace_back(rect_xywh(0, 0, 199, 380));

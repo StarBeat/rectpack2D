@@ -9,7 +9,7 @@ const flipping_option runtime_flipping_mode = flipping_option::ENABLED;
 using spaces_type = empty_spaces<true, default_empty_spaces>;
 using rect_type = rectpack2D::output_rect_t<spaces_type>;
 
-using vec_rect_type = std::vector<rect_type>;
+using vec_rect_type = std::vector<rect_xywhf>;
 
 auto report_successful = [](rect_type&)
 {
@@ -20,7 +20,7 @@ auto report_unsuccessful = [](rect_type&)
 	return callback_result::ABORT_PACKING;
 };
 
-auto find_best_packing_spaces_type(vec_rect_type rectangles)
+auto find_best_packing_spaces_type(vec_rect_type& rectangles)
 {
 	return rectpack2D::find_best_packing<spaces_type>(
 		rectangles,
